@@ -1,0 +1,22 @@
+{
+  "relevance_precision": {
+    "point": 89.693728,
+    "lo": 84.63,
+    "hi": 94.25
+  },
+  "effective_coverage": {
+    "point": 95.249172,
+    "lo": 89.78,
+    "hi": 99.11
+  },
+  "information_utility": {
+    "point": 83.943618,
+    "lo": 79.98,
+    "hi": 87.66
+  },
+  "overall": {
+    "point": 89.62883933333333,
+    "lo": 85.27,
+    "hi": 93.33333333333333
+  }
+}

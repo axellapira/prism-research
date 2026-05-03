@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prism on PSB-Recruiting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --olive: #3d402f;
+    --olive-soft: rgba(61, 64, 47, 0.72);
+    --olive-faint: rgba(61, 64, 47, 0.12);
+    --beige: #e8e6dc;
+    --beige-light: #eeede2;
+    --beige-page: #f5f1e6;
+    --lime: #d6e38f;
+    --purple: #cfb0db;
+    --purple-text: #4a1d60;
+    --ink: #1a1a18;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--beige-page);
+    color: var(--olive);
+    font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+  }
+
+  .frame {
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 11;
+    position: relative;
+    overflow: hidden;
+    border-radius: 36px;
+    padding: 64px 72px 48px 72px;
+    background:
+      radial-gradient(ellipse 65% 90% at 0% 0%, rgba(207, 176, 219, 0.55) 0%, transparent 55%),
+      radial-gradient(ellipse 70% 75% at 100% 100%, rgba(214, 227, 143, 0.50) 0%, transparent 55%),
+      rgba(255, 255, 255, 0.4);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.6) inset, 0 12px 40px -12px rgba(61,64,47,0.18);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 56px;
+  }
+
+  /* ── Header ────────────────────────────────────────── */
+  .header { display: flex; flex-direction: column; gap: 14px; }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+    padding: 7px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid var(--olive-faint);
+    color: var(--olive);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .eyebrow .dot {
+    width: 6px; height: 6px; border-radius: 999px;
+    background: var(--olive);
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: clamp(2.2rem, 4.4vw, 3.4rem);
+    line-height: 1.04;
+    letter-spacing: -0.018em;
+    color: var(--olive);
+    text-wrap: balance;
+    max-width: 22ch;
+  }
+  h1 em {
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--olive-soft);
+    line-height: 1.5;
+    max-width: 60ch;
+  }
+
+  /* ── Chart ─────────────────────────────────────────── */
+  .chart {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 18px;
+    align-items: stretch;
+  }
+
+  .y-axis {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 0 0 36px 0;
+    font-size: 11px;
+    color: var(--olive-soft);
+    text-align: right;
+  }
+  .y-axis .tick { line-height: 1; }
+
+  .plot {
+    position: relative;
+    border-bottom: 1.5px solid var(--olive);
+  }
+  .gridlines {
+    position: absolute;
+    inset: 0 0 36px 0;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    pointer-events: none;
+  }
+  .gridlines > div {
+    border-top: 1px dashed var(--olive-faint);
+  }
+  .gridlines > div:first-child { border-top: none; }
+
+  .bars {
+    position: relative;
+    height: calc(100% - 36px);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: end;
+    gap: 24px;
+    padding: 0 12px;
+  }
+
+  .bar-col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  /* Logo above bar */
+  .logo-wrap {
+    position: absolute;
+    bottom: calc(var(--bar-pct) + 20px);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(61, 64, 47, 0.10);
+    box-shadow: 0 2px 8px -2px rgba(61,64,47,0.15);
+    overflow: hidden;
+  }
+  .logo-wrap img, .logo-wrap svg {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+  }
+  .logo-wrap.prism {
+    background: var(--olive);
+    border-color: transparent;
+    box-shadow: 0 4px 14px -3px rgba(61, 64, 47, 0.30);
+  }
+  .logo-wrap.prism svg path {
+    fill: var(--beige-light);
+  }
+
+  .bar {
+    width: 78%;
+    max-width: 110px;
+    height: var(--bar-pct);
+    border-radius: 18px 18px 0 0;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 18px;
+    transition: transform 0.2s;
+  }
+  .bar.prism {
+    background: linear-gradient(180deg, #d8baeb 0%, var(--purple) 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.5),
+      0 10px 26px -8px rgba(74, 29, 96, 0.35);
+  }
+  .bar.baseline {
+    background: linear-gradient(180deg, #4a4d39 0%, var(--olive) 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.12),
+      0 4px 16px -4px rgba(61,64,47,0.30);
+  }
+
+  .score {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+  }
+  .bar.prism .score { color: var(--purple-text); font-weight: 700; font-size: 32px; }
+  .bar.baseline .score { color: var(--beige-light); font-weight: 600; }
+
+  /* Error bars (Prism only) */
+  .error-bar {
+    position: absolute;
+    width: 2px;
+    background: var(--purple-text);
+    border-radius: 1px;
+    z-index: 2;
+    opacity: 0.85;
+  }
+  .error-bar::before, .error-bar::after {
+    content: "";
+    position: absolute;
+    left: -7px;
+    width: 16px;
+    height: 2px;
+    background: var(--purple-text);
+    border-radius: 1px;
+  }
+  .error-bar::before { top: 0; }
+  .error-bar::after { bottom: 0; }
+
+  /* X-axis labels */
+  .x-labels {
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    right: 12px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    padding-top: 12px;
+  }
+  .x-label {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--olive);
+    line-height: 1.2;
+  }
+  .x-label.prism { font-weight: 700; }
+
+  /* ── Footer ────────────────────────────────────────── */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    padding-top: 12px;
+    border-top: 1px solid var(--olive-faint);
+    font-size: 11px;
+    color: var(--olive-soft);
+  }
+  .footer .right { text-align: right; }
+  .footer strong { color: var(--olive); font-weight: 600; }
+
+  /* ── Print export size ─────────────────────────────── */
+  @media (min-width: 1280px) {
+    body { padding: 48px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="frame" id="frame">
+  <header class="header">
+    <h1>The <em>best</em> people search engine in the world.</h1>
+    <p class="subtitle">
+      Prism scores <strong>89.6</strong> Overall on the official PSB harness — <strong>21.4 points</strong> ahead of the strongest published baseline. 7 independent scoring runs · 95% bootstrap CI on Prism.
+    </p>
+  </header>
+
+  <div class="chart">
+    <div class="y-axis">
+      <span class="tick">20</span>
+      <span class="tick">40</span>
+      <span class="tick">60</span>
+      <span class="tick">80</span>
+      <span class="tick">100</span>
+    </div>
+    <div class="plot">
+      <div class="gridlines">
+        <div></div><div></div><div></div><div></div>
+      </div>
+      <div class="bars">
+        <!-- Prism -->
+        <div class="bar-col">
+          <div class="logo-wrap prism" style="bottom: calc(87.0% + 20px);">
+            <svg viewBox="0 0 2207 2075" xmlns="http://www.w3.org/2000/svg">
+              <path d="M499.5 1139L0 2074.5L2206.5 2073.5C2142.5 1899.5 1979.5 1768 1906 1724C1599.67 1563.33 945.1 1219.9 777.5 1131.5C609.9 1043.1 522.333 1099.67 499.5 1139Z"/>
+              <path d="M667.5 815L1102 0C1261.83 299.167 1593.8 921.8 1643 1019C1692.2 1116.2 1611.83 1116.17 1565.5 1104C1309.5 1042.67 776.34 932.243 717.5 904C667.5 880 667.5 845.5 667.5 815Z"/>
+            </svg>
+          </div>
+          <div class="error-bar" style="bottom: 81.25%; height: calc(91.75% - 81.25%);"></div>
+          <div class="bar prism" style="--bar-pct: 87.0%;">
+            <span class="score">89.6</span>
+          </div>
+        </div>
+
+        <!-- Lessie -->
+        <div class="bar-col">
+          <div class="logo-wrap" style="bottom: calc(60.25% + 20px);">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAYFBMVEUAAAD///9ycnJHR0dKSkrHx8f19fXx8fG2trbR0dG5ublYWFgtLS02NjaIiIjh4eGoqKh4eHgQEBDp6emZmZlqamrb29tkZGQeHh7BwcGTk5M+Pj4JCQlQUFCurq4lJSVAKu4jAAABw0lEQVR4nO2Y65KCMAxGicpdQETxir7/W64os67SADO0yczOd37ajj2aNG3qeQAAAAAAAAAAAADDNBTW0bnM1ASW9KSI97oCLbuLsgBVubIAUSAfiE+BRxy0BSjZKguQry1AyVVZQDYPTAKUagsUa2UByUQ0C5BcVWYEYm2BQCwPGQG6aQuQukCjLSBVDlkBqX3ACtRHZYFqqSwgVQlYARK6HvICCxmBFQQgAIHpAk0eVe2Av9tb7J4mC6yT8D1WH6QFVsnXaGgrQtME0rA/HgkKnI0TfCsH9hSBAzPjZENgwmGUBtwUG9e2bFygZqfYuDMcRwVydsaji50v4I0JbOMBARs9JBvgTqAcWt9GG83+wE7gNihQzH/jNe/xt4ChBBlmzWAx8tXD69P8x9U7t8teAusRgc1sAS8aFLiMCFg4Ee7aAp4/JCAQAq8xlwKpJPS4LJDahi3Gv0CqELUYy61UKX5iKoedwNX1YfTCsBOkjuOOfqh/06tg17f6iHFiBdxeyd7kX+sIXUr/kMaMgNNr+Qd5ZRZw2Zh8km3MAg5bsx6lXwR9AXfNqYEszXd1ReX3527acwAAAAAAAAAAAPx/fgBe0BMQqcNKeQAAAABJRU5ErkJggg==" alt="Lessie">
+          </div>
+          <div class="bar baseline" style="--bar-pct: 60.25%;">
+            <span class="score">68.2</span>
+          </div>
+        </div>
+
+        <!-- Juicebox -->
+        <div class="bar-col">
+          <div class="logo-wrap" style="bottom: calc(57.125% + 20px);">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAJ1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+jSoGAAAADHRSTlMAzSpMb+OMuQsa9KND7N3MAAADuklEQVR4nO2b25qqMAyFRR0E5f2fd2b83ANZSdqkTcPNXpcjyj/NuZTL5b96tMzTNK/n3f/+3H41n3T729f20fN2wu2vj+2g6Zp8+2XeQK9UV7jj7XNdYTc+1VeOK1DjUyW4AjM+rMZjGXv/T+Qf7Y5EI10Bjf94e/76on8dlhXQ+H8+t1ynDFeA/3O7Hz+8wYevcFfAyH/hBWNdgRlfWONVs1C/VOMj5iBXKBofECBKI7JC1fhU6AoFWpPkyC8pNCtYjQ/fAuhmV8C0/zQvJ7pCW6+Axp89DtXvChhSUuSXxLKCDyEiqXQUiMUR+SVh7bZmBaHmt4q5ggHBkvbtwqxQtWV8RXFlhfbIL8meFZjxo7oKY68Aq99nfCq07EO6iLpL9JABiU2w7XJc/xjjA8LRGyf++Wp21UatkwMgftiFABMAPJ2XX1haJQBWPeImHD5OiwA/nFG9DJE0TisAPGWIAesS30spArCU0esKmF2rALGuwErrzQDAq0erKwhN9WoC4K7QNOxKcX01AlwWdAV3WyRPVGYA7gq+6qT1VQ6AnqygT1QuAMEVbF8rJHUnQFOBKI7TbgC3K1Saaj8A/8mSK1Sb6hYAYVGVXoGlfW6wNgDjrGYZpxsBhMBiCLZxuhmgViCsE1UHAF/ifdi1j9NdAGpWwJpfyFedAGKOdY3TvQDC7XzjdD+A2mS9VZ2oIgC4y+3Gr/YtIQBC51o3fiyANGrYetcwAJYVjN17IAApPeamNRJg/7XNPkmHAuwrYP9OpA8c0sEJALT4pgPg2JINwAbuXADsTJIBsPNKBmAzazKAuNuSByAYPxMAZ7RkAHzykQ2gGT8JAHcqkgFKxk8AUCI/C2ARD43lAWiHxpIAxLSfB6CPHzkAlcgfDWA1/iAAQ+SPBCin/eEAxshvBPir6CqA0/g+gENcKwBu43sAyEwvApjSfjMAjWvp+ce1sPXSDQD7Ok9xmpaf8EUAsGMc2ji9DvEB17mU+CgwbKFTlXbhGgDYLmp9M8NTBmsAjYc8S6fHPQAdh5IiqqHb+FSzxxWkH2DG9z799RRF/m3Pky5V9srA4KNOpLV1xaEn0hrmgobIL8nkCofrQ4xPhZWkBIDGDzoJVHWFz3VjjiO+Zdof6I78kuo7JGEHujWV94gGvt2wSy/UA41PpM4MsPoDX4GUH5dRDX7dq1Yghr/wtvQ9OY1hULNC/OtNGoLoCqmvffICkfS24y7qCjnGpyJPTs95+flfVlBHvfH6HTzSjU+1nvjmeYy+AXHB1do6wgzEAAAAAElFTkSuQmCC" alt="Juicebox">
+          </div>
+          <div class="bar baseline" style="--bar-pct: 57.125%;">
+            <span class="score">65.7</span>
+          </div>
+        </div>
+
+        <!-- Exa -->
+        <div class="bar-col">
+          <div class="logo-wrap" style="bottom: calc(55.875% + 20px);">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAOVBMVEUfQO3Hz/v///+Pn/bj5/07WO+dq/fx8/5ziPMtTO7V2/xJZPBzh/RXcPGBlPSBk/Wrt/hlfPK5w/lRQSKsAAAArElEQVQ4jdWSSQ6DMAxFw48zQ4De/7CNlVJZGai6a7MAI7/Iz9hK/dFZl+asDaABEmlA98Aivyj0AOy7HpxpHTQsYauxcfCdpIbernvUCVRAZUQObX0NAPVgjR3UCVxAIPgikAb5CqjkHCGP8tw5/yAnmv0a4BIGpcQ+B8wnyYMfed5m8eDQyrFJIL2uhjgS1TgIZ40nwxI7cg7HLUdkhwsTb1fOt0vbW/zweQK2EQPAa0lh+gAAAABJRU5ErkJggg==" alt="Exa">
+          </div>
+          <div class="bar baseline" style="--bar-pct: 55.875%;">
+            <span class="score">64.7</span>
+          </div>
+        </div>
+
+        <!-- Claude Code -->
+        <div class="bar-col">
+          <div class="logo-wrap" style="bottom: calc(38.125% + 20px);">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAY1BMVEX6+fUUFBMAAAD//////vrn5uKko6GzsrAQEA////0YFxbDwr8LDAqRkI4GBwVOTUw1NDTY19N7eni5uLVcW1ry8e11dXMcGxo9PTyYl5TPzsuJiIZWVlRoZ2YnJyYiIiFGRUSwQATqAAADDElEQVR4nO2Z23aCMBBFJQEEL6j1Sq21//+Vra6lnBMzUCDxafZbwTKTyc6FMJkoiqIoiqIoiqIoiqL0ISWkGxETqHOk9N+o97HCp1NDZM875QmvT2PVwJ4WCWCWzxKkW9NcX6xtnPjpxmD8pDBNIGsKyGwTpwTlmRNIzPYZqFzCPfNRtj1neALYyhvVqilBBgkUJkr8PwUTB9DQriq4HkVDR8G3a+gq6Go4ia3hi4KuhufIGr4o6GhIFSpM8ApQH/s1XIMj4TUkyyFQ/QxEo6T6Ca1h5i1AUiSShpn8rCHQTEclmDcafqCGy7Aapti6Clu6kzQM2gfpHBt3XvtrzRpuQ2pov3Ci3eSYjqThKmQJaKmZWfrzHRryYpundod/v0FDUtDsHSUujYafcTTkeDftrZPRA/sdRUNW8FZx7hPQMI+i4f51mSENj6hhcz2Yhmn9qhbtTsxno+GBShNGQ+sZXDTkzaHZGEXQkBRcnB7PpKwg2yNen4fQ0F6wsY91nod87tcQFooR7MmrRySudUwNuUnNXo9rLWo4vg9s5d/tcmKShsnoPiAFiys8j7sGMg6rISuYw+N4RQIN66Aacjvx6IGH57cV/mWkhtzTF2oOT1CNhlyakRraq9yh0is5a3McNR2z0jPL8CIFWSf+0gyABnVyPc4IrA6+C7GGh1ElcA5lHPAevpJnwgjtDSnYBUxS0gjtDW30OxMQNRw8FfjOJGQiaEhL7j9KEF7DXvHDa9hLwXsg0JAOzQZq2EvBe6Cz/9BsoIb9FLwHMk1nSwtFD1hBI4I/ks5uB2mY0qPr7dTLFidr6ex2kIa08//b4ad+ykxY/Uef3fK7j/yqzYHCnd2ygi37GvY93CcEOnltf8+lQME+IdDJbGsX0mgJ9gnBUbAtfbGzRmnICrbXj49FQMPpcA2dVrUbRGsGapgO15AU7E5emg2Hf0JgBbsWsxLfnqqvAJ8Q+ONAp8C0AwvyCaFc42qz66ydpdXpjGe3wLpHH2RI399n0o3/x1cURVEURVEURVEURXknvxgRJ5s17RDOAAAAAElFTkSuQmCC" alt="Claude Code">
+          </div>
+          <div class="bar baseline" style="--bar-pct: 38.125%;">
+            <span class="score">50.5</span>
+          </div>
+        </div>
+      </div>
+      <div class="x-labels">
+        <span class="x-label prism">Prism</span>
+        <span class="x-label">Lessie</span>
+        <span class="x-label">Juicebox</span>
+        <span class="x-label">Exa</span>
+        <span class="x-label">Claude<br>Code</span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <strong>Source</strong> · scrambld.com/research<br>
+      Baselines as published by LessieAI in PeopleSearchBench (2026)
+    </div>
+    <div class="right">
+      <strong>PSB-Recruiting Overall</strong><br>
+      gemini-3-flash-preview judge · Tavily grounding
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>

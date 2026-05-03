@@ -1,0 +1,451 @@
+query_id,agent_name,name,title,company,location,linkedin_url,email,bio,person_data
+rec_0001,prism,Onur Uztüre,Lead Java Developer Contractor,Dekatechs,"London, Area, United Kingdom",https://linkedin.com/in/ouzture,,,{}
+rec_0001,prism,Parul Chhabra,Senior Software Engineer,IBM,"London Area, United Kingdom",https://linkedin.com/in/parulgrover,,,{}
+rec_0001,prism,Deepti Gaur,Senior Software Engineer,Coforge,"Hounslow, England, United Kingdom",https://linkedin.com/in/deepti-gaur-7b422b55,,,{}
+rec_0001,prism,Waleed A,Senior Software Engineer,Impellam Group,"London, England, United Kingdom",https://linkedin.com/in/w-ak,,,{}
+rec_0001,prism,Raman Madaan,Senior Software Engineer,Lloyds Banking Group,"London, England, United Kingdom",https://linkedin.com/in/raman-kumar-madaan-03b512100,,,{}
+rec_0001,prism,Clive Glew,Software Engineer,Transport for Greater Manchester,"London, England, United Kingdom",https://linkedin.com/in/clive-glew-696b3925,,,{}
+rec_0001,prism,Jogender Singh,Senior Engineer,Apexon,"London, England, United Kingdom",https://linkedin.com/in/jogender-singh-6a051610b,,,{}
+rec_0001,prism,Prasanjit Mohanty,Senior Backend Developer,Fabacus,"London, England, United Kingdom",https://linkedin.com/in/prasanjitmohanty,,,{}
+rec_0001,prism,Arvydas Balionis,Senior Software Engineer,Barclays Investment Bank,"London, England, United Kingdom",https://linkedin.com/in/arvydas-balionis-b944a3,,,{}
+rec_0001,prism,Jared Evans,Back End Developer (Taylor's Version),AAT,"London, England, United Kingdom",https://linkedin.com/in/jaredce,,,{}
+rec_0001,prism,Apoorva Dixit,Senior Software Engineer,With Intelligence,"London, England, United Kingdom",https://linkedin.com/in/apoorva-dixit-b37068119,,,{}
+rec_0001,prism,Maxim Filipenko,Software Engineer,Meta,"London, England, United Kingdom",https://linkedin.com/in/maxim-filipenko-75697379,,,{}
+rec_0001,prism,Rohit Kumar,Senior Associate Technology,Publicis Sapient,"London, England, United Kingdom",https://linkedin.com/in/rohit-kumar-ba0376208,,,{}
+rec_0001,prism,Cavinash C,Software Engineer,Meta,"London, England, United Kingdom",https://linkedin.com/in/cpc123,,,{}
+rec_0001,prism,Balpreet Patil,Senior Software Engineer III,Tesco,"London Area, United Kingdom",https://linkedin.com/in/balpreetpatil,,,{}
+rec_0002,prism,Soojin Choi,Senior Product Manager,Microsoft,Greater Seattle Area United States,https://linkedin.com/in/soojinmin,,,{}
+rec_0002,prism,Craig Noeldner,"Vice President, Product Management, OCI Developer Platform",Oracle,"Seattle, Washington, United States",https://linkedin.com/in/noeldner,,,{}
+rec_0002,prism,Navyasri Canumalla,Senior Product Manager,GitHub,Greater Seattle Area United States,https://linkedin.com/in/navyasricanumalla,,,{}
+rec_0002,prism,Sam Shapiro,Senior Product Manager,Microsoft,"Seattle, Washington, United States",https://linkedin.com/in/samshapiro1,,,{}
+rec_0002,prism,Brigit Murtaugh,Principal Product Manager,Microsoft,Greater Seattle Area United States,https://linkedin.com/in/brigit-murtaugh-a57433a7,,,{}
+rec_0002,prism,Kevin Lillybridge,Group Product Manager,Auth0 by Okta,"Seattle, Washington, United States",https://linkedin.com/in/kevin-lillybridge-0750bb17,,,{}
+rec_0002,prism,Paul Gildea,Senior Product Manager - Fluent UI React,Microsoft,"Seattle, Washington, United States",https://linkedin.com/in/paul-gildea-0448773,,,{}
+rec_0002,prism,Yavor Georgiev,Product Manager,Snowflake,"Seattle, Washington, United States",https://linkedin.com/in/yavorg,,,{}
+rec_0002,prism,Nathan Yim,Product Manager - Google Beam (Project Starline),Google,"Seattle, Washington, United States",https://linkedin.com/in/nathanyim,,,{}
+rec_0002,prism,Yafet W,Senior Product Manager,Cerby,"Seattle, Washington, United States",https://linkedin.com/in/yafetwoldegabriel,,,{}
+rec_0002,prism,Miguel Ramos,Product Manager,Google,Greater Seattle Area United States,https://linkedin.com/in/miguelrb,,,{}
+rec_0002,prism,Ryan G,Principal Architect,Microsoft,Greater Seattle Area United States,https://linkedin.com/in/ryan-gregg,,,{}
+rec_0002,prism,Clint Rutkas,Principal Product Manager Lead,Microsoft,"Seattle, Washington, United States",https://linkedin.com/in/clintrutkas,,,{}
+rec_0002,prism,Zlatko Knezevic,Product Manager @ Azure Data org,Microsoft,Greater Seattle Area United States,https://linkedin.com/in/zlatko-knezevic-0326bb27,,,{}
+rec_0002,prism,Ryan Bliss,Founder,Indie Game Studio (Name TBD),"Seattle, Washington, United States",https://linkedin.com/in/ryanbliss,,,{}
+rec_0003,prism,Muhammad Ahmad,UI UX Designer,DG Group,"Berlin, Berlin, Germany",https://linkedin.com/in/muhammad-ahmad-sr-ui-ux-designer-3314741bb,,,{}
+rec_0003,prism,Valeriia Novikova,User Experience Designer,EPAM Systems,"Berlin, Berlin, Germany",https://linkedin.com/in/valeriia-novikova-823530128,,,{}
+rec_0003,prism,Enrique Ramos,Senior Designer,Totem Studio,"Berlin, Berlin, Germany",https://linkedin.com/in/enrique-ramos-design,,,{}
+rec_0003,prism,Alexander Käßner,UI/UX Design,Datawrapper,"Berlin, Berlin, Germany",https://linkedin.com/in/alexander-kaessner,,,{}
+rec_0003,prism,Melinda Albert,Freelance User Interface Design and Usability for mobile Apps,Melinda Albert Mobile Design,Berlin Metropolitan Area Germany,https://linkedin.com/in/albertmelinda,,,{}
+rec_0003,prism,Matti Richoux,Senior UX Designer,GameDuell GmbH,"Berlin, Berlin, Germany",https://linkedin.com/in/mattirichoux,,,{}
+rec_0003,prism,Pouya Malekshah,UI/UX Designer,Cherrydeck,"Berlin, Berlin, Germany",https://linkedin.com/in/pouya-malekshah-a5217a1a2,,,{}
+rec_0003,prism,Ana Galuppo,Owner,Vanilla Bean Digital & TI,"Berlin, Berlin, Germany",https://linkedin.com/in/anagaluppo,,,{}
+rec_0003,prism,Wael Salem,Senior User Interface Designer/UI,University of Fujairah - جامعة الفجيرة,"Berlin, Berlin, Germany",https://linkedin.com/in/wael-salem-159a2551,,,{}
+rec_0003,prism,Minna Hekanaho,UX Lead,Shypple,"Berlin, Berlin, Germany",https://linkedin.com/in/minna-hekanaho-09a6492,,,{}
+rec_0003,prism,Vadym Grin,Head Of Design,Almedia,"Berlin, Berlin, Germany",https://linkedin.com/in/vadimgrin,,,{}
+rec_0003,prism,Sofia B,Senior UX Designer,LucaNet AG,"Berlin, Berlin, Germany",https://linkedin.com/in/sonya-bolshakova,,,{}
+rec_0003,prism,Barbara Maino,UX/UI Designer,Hexis,"Berlin, Berlin, Germany",https://linkedin.com/in/barbara-adams-maino,,,{}
+rec_0003,prism,Milena Gorska,UX / UI Designer,Flip,"Berlin, Berlin, Germany",https://linkedin.com/in/myelona,,,{}
+rec_0003,prism,Verónica Litmanovich,Product Design Lead,Heyflow,"Berlin, Berlin, Germany",https://linkedin.com/in/veronica-litmanovich,,,{}
+rec_0004,prism,Ajay Reddy,AI/ML ENGINEER,ServiceNow,"Boston, Massachusetts, United States",https://linkedin.com/in/ajay6601,,,{}
+rec_0004,prism,Srikar Tondapu,Machine Learning Engineer,Red Hat,"Boston, Massachusetts, United States",https://linkedin.com/in/srikar-tondapu,,,{}
+rec_0004,prism,Pushkar Kurhekar,Machine Learning Engineer II,WHOOP,"Boston, Massachusetts, United States",https://linkedin.com/in/pushkar-kurhekar-a03934146,,,{}
+rec_0004,prism,Pramodh Gowda,Senior Data Scientist,Cardinal Health,"Boston, Massachusetts, United States",https://linkedin.com/in/pspramodh,,,{}
+rec_0004,prism,Matthew Struble,Staff AI / ML Engineer,Lila Sciences,Greater Boston United States,https://linkedin.com/in/mattstruble,,,{}
+rec_0004,prism,Nadim Kawwa,Lead Data Scientist,"Claryo, Inc.",Greater Boston United States,https://linkedin.com/in/nadimkawwa,,,{}
+rec_0004,prism,Akhil Reddy,AI Engineer,Plaid,Greater Boston United States,https://linkedin.com/in/akhil-kumar-reddy-bhoomi-reddy-2775a8116,,,{}
+rec_0004,prism,Deep P,AI/ML Engineer,JPMorganChase,"Boston, Massachusetts, United States",https://linkedin.com/in/deep-p-47b860219,,,{}
+rec_0004,prism,Varun Swaminathan,Machine Learning Engineer,Devicethread Inc.,"Boston, Massachusetts, United States",https://linkedin.com/in/varun-r-swaminathan-93330118b,,,{}
+rec_0004,prism,Mahendra S.,AI ML Engineer,CVS Health,"Boston, Massachusetts, United States",https://linkedin.com/in/mahendramurari,,,{}
+rec_0004,prism,Smit Kiri,Senior Machine Learning Engineer,Klaviyo,"Boston, Massachusetts, United States",https://linkedin.com/in/smitkiri,,,{}
+rec_0004,prism,Harshit Kumar,Senior Machine Learning Engineer,Autodesk,"Boston, Massachusetts, United States",https://linkedin.com/in/kharshit,,,{}
+rec_0004,prism,Zehua Li,Machine Learning Operations Engineer II,CarGurus,"Boston, Massachusetts, United States",https://linkedin.com/in/zehua-li-05269619a,,,{}
+rec_0004,prism,Alex Marzban,Machine Learning Engineer,Global Partners LP,"Boston, Massachusetts, United States",https://linkedin.com/in/alex-marzban-2905b9202,,,{}
+rec_0004,prism,Jingyuan Shi,Machine Learning Intern,"Encyclopaedia Britannica, Inc.",Greater Boston United States,https://linkedin.com/in/jingyuan-shi,,,{}
+rec_0005,prism,Sadrach Pierre,Vice President Applied AI/ML Lead,JPMorgan Chase & Co.,New York City Metropolitan Area United States,https://linkedin.com/in/sadrachpierre,,,{}
+rec_0005,prism,Tatiana Yarmola,Chief Data Scientist,"CN Lines Investment, Trading Company","New York, New York, United States",https://linkedin.com/in/tyarmola,,,{}
+rec_0005,prism,Andrey Beylin,Data Scientist,Chicago Trading Company,"New York, New York, United States",https://linkedin.com/in/anbeylin,,,{}
+rec_0005,prism,Laura Desplans,Senior Analytics Engineer,DriveWealth,"New York, New York, United States",https://linkedin.com/in/laura-desplans-0b6a84112,,,{}
+rec_0005,prism,Todd Zhen,"Senior Data Scientist, Pricing",SoFi,"New York, New York, United States",https://linkedin.com/in/toddzhen,,,{}
+rec_0005,prism,Eric Lybrand,Senior Machine Learning Engineer,Shopify,"Brooklyn, New York, United States",https://linkedin.com/in/eric-lybrand,,,{}
+rec_0005,prism,Ellis Shaffer,Vice President,Mizuho,New York City Metropolitan Area United States,https://linkedin.com/in/e5haffer,,,{}
+rec_0005,prism,Evan Wright,Data Scientist,Meta,New York City Metropolitan Area United States,https://linkedin.com/in/enwright,,,{}
+rec_0005,prism,Daniel Blado,Data Scientist,Meta,New York City Metropolitan Area United States,https://linkedin.com/in/daniel-blado-184b0468,,,{}
+rec_0005,prism,Ryne Carbone,Staff Machine Learning Engineer,Ramp,"New York, New York, United States",https://linkedin.com/in/rynecarbone,,,{}
+rec_0005,prism,Vishal Srivastava,"Corporate Vice President, Lead Data Scientist",New York Life Insurance Company,New York City Metropolitan Area United States,https://linkedin.com/in/vishal-srivastava-phd-aa161b6,,,{}
+rec_0005,prism,Sam Mottahedi,Senior Data Scientist,Airbnb,"New York, New York, United States",https://linkedin.com/in/smottahedi,,,{}
+rec_0005,prism,Shoshik Amram,AI engineering manager,Drata,New York City Metropolitan Area United States,https://linkedin.com/in/shoshik-amram-phd-530893185,,,{}
+rec_0005,prism,Tao X,Data Scientist,Amazon Web Services (AWS),New York City Metropolitan Area United States,https://linkedin.com/in/taoxu11,,,{}
+rec_0005,prism,Sean Lee,Senior Data Scientist - Research,Google,"New York, New York, United States",https://linkedin.com/in/sean-seung-joo-lee-a9b08380,,,{}
+rec_0006,prism,Jason Park,Investment Director,SoftBank Investment Advisers,Singapore,https://linkedin.com/in/jason-jungnam-park-39534420,,,{}
+rec_0006,prism,Reina Nakamura,General Partner,Lyra Ventures,Singapore,https://linkedin.com/in/reinankmr,,,{}
+rec_0006,prism,Phil Inagaki,Managing Partner & Chief Investment Officer,Xora Innovation,Singapore,https://linkedin.com/in/philinagaki,,,{}
+rec_0006,prism,David Toh,Partner,Mirana Ventures,Singapore,https://linkedin.com/in/davidtyh,,,{}
+rec_0006,prism,Teddy Peralta,Investor,Altara Ventures,"Singapore, Singapore",https://linkedin.com/in/teddy-peralta-50703415a,,,{}
+rec_0006,prism,Shaun Goh,Investments,Peak XV Partners,Singapore,https://linkedin.com/in/shaun-goh-84a5a559,,,{}
+rec_0006,prism,Raynard Lao,Investor,January Capital,Singapore,https://linkedin.com/in/raynard-lao-554098127,,,{}
+rec_0006,prism,Lyon Kwek,Investor,T3E,Singapore,https://linkedin.com/in/lyon-kwek-35b80a88,,,{}
+rec_0006,prism,Ryan Chong,Investment Associate,Singtel Innov8,Singapore,https://linkedin.com/in/ryan-chong-778582179,,,{}
+rec_0006,prism,Razak Radityo,Director & Head Of Investment,Mandiri Investment Management,"Singapore, Singapore",https://linkedin.com/in/razak-radityo-34bb2046,,,{}
+rec_0006,prism,Oren Avidan,Vice President Portfolio Management,Dragon Fund,"Singapore, Singapore",https://linkedin.com/in/orenavidan,,,{}
+rec_0006,prism,Felix Frenzel,Founding Partner,Kadan Capital,"Singapore, Singapore",https://linkedin.com/in/felixfrenzel,,,{}
+rec_0006,prism,Tyler Lim,Senior Investment Associate,Innoven Capital SEA,"Singapore, Singapore",https://linkedin.com/in/tylerlim-quan-jie,,,{}
+rec_0006,prism,Anandhi Gokhale,Investment Manager - Energy,Emerald Technology Ventures,"Singapore, Singapore",https://linkedin.com/in/anandhi-gokhale-20563752,,,{}
+rec_0006,prism,Julian Chow,Lead Portfolio Manager,Monetary Authority of Singapore (MAS),"Singapore, Singapore",https://linkedin.com/in/julian-chow-cfa-a7188a88,,,{}
+rec_0007,prism,Hootan Mahallati,Partner,Product Pioneer Partners,"San Francisco, California, United States",https://linkedin.com/in/hootanmahallati,,,{}
+rec_0007,prism,Alexandra Erman,Fractional COO,Connect981,"Berkeley, California, United States",https://linkedin.com/in/alexandraerman,,,{}
+rec_0007,prism,Danny Ruchman,Co-Founder & CTO,Strikeco,Israel,https://linkedin.com/in/danny-ruchman-70211a27,,,{}
+rec_0007,prism,Kurt Kober,Chief Executive Officer,Glo Skin Beauty,"West Hollywood, California, United States",https://linkedin.com/in/kurtjkober,,,{}
+rec_0007,prism,Mark Sims,Managing Principal,consultMSG,"Rocky River, Ohio, United States",https://linkedin.com/in/markjsims,,,{}
+rec_0007,prism,Curtis Hampshire,Board Advisor,Audax Group,"Annapolis, Maryland, United States",https://linkedin.com/in/curtis-hampshire,,,{}
+rec_0007,prism,Jason Vander Pol,Chief Growth & Compliance Officer,Legato Financial Group,"Louisville, Kentucky, United States",https://linkedin.com/in/jasonvanderpol,,,{}
+rec_0007,prism,Marco Retel,CEO,OMISE Shop,"Randstad, Netherlands",https://linkedin.com/in/marco-retel-ba26004,,,{}
+rec_0007,prism,Beau Lescott,Founder,Adaptive Portfolio Technologies,"Bronxville, New York, United States",https://linkedin.com/in/beau-lescott-5a3199117,,,{}
+rec_0007,prism,Andy Hastings,General Manager,Applied Fluid Power,"Kansas City, Missouri, United States",https://linkedin.com/in/andy-hastings-b055a128,,,{}
+rec_0007,prism,Bob Ageloff,"President, U.S. Central Region, JLL Americas Leasing Advisory",JLL,"Chicago, Illinois, United States",https://linkedin.com/in/robertageloff,,,{}
+rec_0007,prism,Clemente Perrone,VP Chief Human Resources & Organization Officer,Digital Value S.p.A.,"Milan, Lombardy, Italy",https://linkedin.com/in/clementeperrone,,,{}
+rec_0007,prism,Evan Van Dyke,Founder,Aperture OS,"Salt Lake City, United States",https://linkedin.com/in/evanvandyke,,,{}
+rec_0007,prism,Madelyn Lando,Senior Vice President,Ingalls & Snyder,"New York City Metropolitan Area, United States",https://linkedin.com/in/madelyn-lando-0b612650,,,{}
+rec_0007,prism,Cathy Printz,MCC Governance Executive,Bank of America,"Charlotte, North Carolina, United States",https://linkedin.com/in/cathy-cat-printz-60703316,,,{}
+rec_0008,prism,Linbo Jin,Senior Algorithm Expert,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/linbojin,,,{}
+rec_0008,prism,Chen Li,Architect and Tech Lead,字节跳动,"Hangzhou, Zhejiang, China",https://linkedin.com/in/chenli90,,,{}
+rec_0008,prism,Haoliang Cao,算法专家,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/haoliang-cao,,,{}
+rec_0008,prism,Xudong Li,Backend Software Engineer,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/xudong-li,,,{}
+rec_0008,prism,Ziyu Jiang,Algorithm Engineer,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/williamsjiang,,,{}
+rec_0008,prism,Ruiru Zhang,Algorithm Engineer,Alibaba Cloud,"Hangzhou, Zhejiang, China",https://linkedin.com/in/ruiru-lizzie-zhang,,,{}
+rec_0008,prism,Xingya Xu,Algorithm Expert,字节跳动,"Hangzhou, Zhejiang, China",https://linkedin.com/in/xingya-xu,,,{}
+rec_0008,prism,Rohith Kiran,Senior GenAI ML Engineer,U.S. Bank,United States,https://linkedin.com/in/rohith-kiran-6278b6339,,,{}
+rec_0008,prism,Linbin Yang,Senior Software Engineer,阿里云计算有限公司,"Hangzhou, Zhejiang, China",https://linkedin.com/in/linbinyang,,,{}
+rec_0008,prism,Changlin Li,Senior Machine Learning Engineer,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/changlin-li,,,{}
+rec_0008,prism,Zhiqi Lin,AI System Engineer,ByteDance,"Hangzhou, Zhejiang, China",https://linkedin.com/in/lzq,,,{}
+rec_0008,prism,Feijun Jiang,Senior Staff Algorithm Engineer/Director of Engineer,"AI Labs, Alibaba Group","Hangzhou, Zhejiang, China",https://linkedin.com/in/feijun-jiang-053aaa25,,,{}
+rec_0008,prism,Xin Tang,Senior Algorithm Engineer,Alibaba Group,"Hangzhou, Zhejiang, China",https://linkedin.com/in/xin-tang-65b40736,,,{}
+rec_0008,prism,Hongpengfei Liu,Senior Algorithm Engineer,ByteDance,"Hangzhou, Zhejiang, China",https://linkedin.com/in/hongpengfei-liu-a35b5285,,,{}
+rec_0008,prism,Jin Xin,算法专家,蚂蚁金服,"Hangzhou, Zhejiang, China",https://linkedin.com/in/jin-xin-98b09b94,,,{}
+rec_0009,prism,Hima Dureddy,Tech Lead Manager and Staff Software Developer,Google DeepMind,"San Francisco, California, United States",https://linkedin.com/in/hima-dureddy,,,{}
+rec_0009,prism,Calvin Fei,"Machine Learning Engineer II, Annapurna ML",Amazon Web Services (AWS),"Cupertino, California, United States",https://linkedin.com/in/cheng-fei-cf482,,,{}
+rec_0009,prism,Xiaomei Song,AI/ML Research Engineer,Berkeley Artificial Intelligence Research,San Francisco Bay Area United States,https://linkedin.com/in/xiaomei-song-731493230,,,{}
+rec_0009,prism,Ayush Alag,Member of Technical Staff,OpenAI,"Santa Clara, California, United States",https://linkedin.com/in/ayushalag,,,{}
+rec_0009,prism,Al Gharakhanian,Machine Learning Development Director,Cognityze,San Francisco Bay Area United States,https://linkedin.com/in/algharakhanian,,,{}
+rec_0009,prism,Jeevitesh Juneja,"Software Engineer, Machine Learning at Reality Labs",Meta,"San Francisco, California, United States",https://linkedin.com/in/jeevitesh-juneja,,,{}
+rec_0009,prism,Anish Polakala,Founder,Stealth AI Startup,San Francisco Bay Area United States,https://linkedin.com/in/anishpolakala,,,{}
+rec_0009,prism,Carlneil Domkam,AI Engineer,Clout Kitchen,"San Francisco, California, United States",https://linkedin.com/in/carlneil-domkam,,,{}
+rec_0009,prism,Xin Li,Staff Software Engineer,Google DeepMind,"San Jose, California, United States",https://linkedin.com/in/xin-li-b31443101,,,{}
+rec_0009,prism,Yikai Zhu,"Software Engineer, Model Performance",Baseten,"San Francisco, California, United States",https://linkedin.com/in/zyksir,,,{}
+rec_0009,prism,Harshita P.,AI Software Engineer,Deep Defense Solutions,"San Francisco, California, United States",https://linkedin.com/in/harshitapoojary,,,{}
+rec_0009,prism,Cody Heiner,Software Engineer,Google,"Campbell, California, United States",https://linkedin.com/in/cody-heiner-885159a8,,,{}
+rec_0009,prism,Gizem Dulat,Fellow,Climatebase,San Francisco Bay Area United States,https://linkedin.com/in/deniz-gizem-ozturk,,,{}
+rec_0009,prism,Hersh Singh,Software Engineer,"Ironclad, Inc.",San Francisco Bay Area United States,https://linkedin.com/in/hersh-singh-250762122,,,{}
+rec_0009,prism,Mariah C,AI/ML Product Development & Research,Independent Projects,San Francisco Bay Area United States,https://linkedin.com/in/mariah-coleno,,,{}
+rec_0010,prism,Julien Birch,Head of Product,ThePackengers,Greater Paris Metropolitan Region France,https://linkedin.com/in/julien-birch-61606b65,,,{}
+rec_0010,prism,Agnès Mantel,Lead Product Manager,Greenscope,Greater Paris Metropolitan Region France,https://linkedin.com/in/agnesmantel,,,{}
+rec_0010,prism,Marlène Vieillescazes,"VP, Product Management",Botify,"Paris, Île-de-France, France",https://linkedin.com/in/marlenevieillescazes,,,{}
+rec_0010,prism,Flore Lazard,Product Manager,Deel,Greater Paris Metropolitan Region France,https://linkedin.com/in/flore-lazard-aa86422b7,,,{}
+rec_0010,prism,Yoann MARY,"Senior Manager, New Customer Acquisition",PlanetArt,"Paris, France",https://linkedin.com/in/yoannmary,,,{}
+rec_0010,prism,Pierre Le Goff,Product Manager - LCA And Supplier Engagement,Greenly | Certified B Corp,"Paris, Île-de-France, France",https://linkedin.com/in/pierre-le-goff,,,{}
+rec_0010,prism,Orlane A,Product Manager,Modjo,Greater Paris Metropolitan Region France,https://linkedin.com/in/orlane-azogui,,,{}
+rec_0010,prism,Adama Chaucheprat,Product Manager Product Owner,Figaro Classifieds,"Paris, Île-de-France, France",https://linkedin.com/in/adama-chaucheprat-23b38845,,,{}
+rec_0010,prism,Alexandre Traversian,Senior Product Manager,Azira Europe,"Paris, Île-de-France, France",https://linkedin.com/in/alexandre-traversian-75854579,,,{}
+rec_0010,prism,Romain Affanni,Chief Product Officer,InVivo Digital Factory,"Paris, France",https://linkedin.com/in/romain-affanni-b2817137,,,{}
+rec_0010,prism,Mickaël LECLERC,CEO,Rikō,"Paris, Île-de-France, France",https://linkedin.com/in/mickaël-leclerc-62a94a43,,,{}
+rec_0010,prism,Leo F.,Growth Advisor,Omniarank,"Paris, Île-de-France, France",https://linkedin.com/in/leo-f-951a97a1,,,{}
+rec_0010,prism,Guillaume Guéroult,Head Of Product,Fnac Darty,"Paris, Île-de-France, France",https://linkedin.com/in/guillaumegueroult,,,{}
+rec_0010,prism,Raphaël Toubiana,Chief Product Officer (CPO),Katan Agency,"Paris, Île-de-France, France",https://linkedin.com/in/raphael-toubiana,,,{}
+rec_0010,prism,Olivia Marien,Global VP Product Marketing,Dext,"Paris, France",https://linkedin.com/in/oliviamarien,,,{}
+rec_0011,prism,Stephanie Bell,"Director, Enterprise Sales","Sprout Social, Inc.","Chicago, Illinois, United States",https://linkedin.com/in/stephanie-bell-4667ab16,,,{}
+rec_0011,prism,Andrew Zobrist,Area Senior Director - Enterprise Central,Auth0,"Chicago, Illinois, United States",https://linkedin.com/in/andrewzobrist,,,{}
+rec_0011,prism,Stuart Koch,"Senior Director, Enterprise Sales",Delinea,"Chicago, Illinois, United States",https://linkedin.com/in/stukoch,,,{}
+rec_0011,prism,Landon Luck,Regional Sales Director,Salesforce,"Chicago, Illinois, United States",https://linkedin.com/in/landon-luck-01a03742,,,{}
+rec_0011,prism,Scott Biederwolf,Regional Vice President of Sales,"SOCi, Inc.","Chicago, Illinois, United States",https://linkedin.com/in/scottbiederwolf,,,{}
+rec_0011,prism,Julia Kearney,Enterprise Digital Account Executive,Salesforce,"Chicago, Illinois, United States",https://linkedin.com/in/juliakearney,,,{}
+rec_0011,prism,Dawn Poole,"Senior Director, Global Field Enablement",MuleSoft,"Chicago, Illinois, United States",https://linkedin.com/in/dawn-poole,,,{}
+rec_0011,prism,Brittany Weinstein,"Regional Director, Commercial Expansion Sales",Smartsheet,"Chicago, Illinois, United States",https://linkedin.com/in/brittanygschulte,,,{}
+rec_0011,prism,Griffin Ortale,Enterprise Sales,Flywire,"Chicago, Illinois, United States",https://linkedin.com/in/griffin-ortale-13866bb3,,,{}
+rec_0011,prism,Andrew Wilson,Senior Director,Salesforce,"Chicago, Illinois, United States",https://linkedin.com/in/agwils,,,{}
+rec_0011,prism,Caroline Kristek,"Director of Sales, Digital GTM",SAP Concur,"Chicago, Illinois, United States",https://linkedin.com/in/caroline-kristek,,,{}
+rec_0011,prism,Adam Slowinski,Strategic Account Director,Neon One,"Chicago, Illinois, United States",https://linkedin.com/in/adam-slowinski-61ab8162,,,{}
+rec_0011,prism,Vince Bredice,Sales Director,Global Source LLC,"Chicago, Illinois, United States",https://linkedin.com/in/vincent-bredice,,,{}
+rec_0011,prism,Stephen Powers,Commercial Account Executive,Docusign,"Chicago, Illinois, United States",https://linkedin.com/in/docusteve,,,{}
+rec_0011,prism,John Kim,Enterprise Sales Development,Paylocity,"Chicago, Illinois, United States",https://linkedin.com/in/johnekim,,,{}
+rec_0012,prism,Kevin Yap,Software Engineer,Relay.app,"Toronto, Ontario, Canada",https://linkedin.com/in/ikeviny,,,{}
+rec_0012,prism,Ogooluwa Akinola,Software Engineer,Magic Eden,"Toronto, Ontario, Canada",https://linkedin.com/in/ogooluwa-akinola,,,{}
+rec_0012,prism,Cenk Alti,Senior System Engineer,Teleport,"Toronto, Ontario, Canada",https://linkedin.com/in/cenkalti,,,{}
+rec_0012,prism,Tobenna Abanofor,Angel Investor,Nairobi Business Angel Network,"Toronto, Ontario, Canada",https://linkedin.com/in/tobenna-k-o-abanofor-b57a7796,,,{}
+rec_0012,prism,Anton Haponenko,Senior Backend Engineer,Roofr,"Toronto, Ontario, Canada",https://linkedin.com/in/haponenko,,,{}
+rec_0012,prism,Debashish Ghatak,Founder,DashApply,"Toronto, Ontario, Canada",https://linkedin.com/in/debashish-ghatak,,,{}
+rec_0012,prism,Oleg Orlov,Senior Software Engineer,EPAM Systems,"Toronto, Ontario, Canada",https://linkedin.com/in/oleg0rlov,,,{}
+rec_0012,prism,Christopher Johns,Senior Back End Developer,Elastio,"Toronto, Ontario, Canada",https://linkedin.com/in/christopher-johns-ab498761,,,{}
+rec_0012,prism,Daniel Holland,Backend Software Developer,LumiQ,"Toronto, Ontario, Canada",https://linkedin.com/in/danrholland,,,{}
+rec_0012,prism,Aleks Neceski,Back End Developer,EvenUp,"Toronto, Ontario, Canada",https://linkedin.com/in/aleks-neceski-8114b3126,,,{}
+rec_0012,prism,Bina Javed,Senior Software Engineer,ClearyX,"Toronto, Ontario, Canada",https://linkedin.com/in/bina-javed-khan,,,{}
+rec_0012,prism,Owen Lilly,Senior Software Engineer,GroupBy Inc.,"Toronto, Ontario, Canada",https://linkedin.com/in/owenlilly,,,{}
+rec_0012,prism,Edogbo Sunny,Senior Backend Engineer (Tech lead),Flutterwave,"Toronto, Ontario, Canada",https://linkedin.com/in/edogbo-sunny,,,{}
+rec_0012,prism,Bijay U.,Senior Machine Learning Developer,Autodesk,"Toronto, Ontario, Canada",https://linkedin.com/in/bjupreti,,,{}
+rec_0012,prism,Nan Zhou,Senior Software Engineer,StoreForce,"Toronto, Ontario, Canada",https://linkedin.com/in/nan-zhou-01915289,,,{}
+rec_0013,prism,Tomasz Połeć,"Co-founder, Tax Adviser #12104",taxology.co,"Warsaw, Mazowieckie, Poland",https://linkedin.com/in/tomasz-połeć-16274a52,,,{}
+rec_0013,prism,Daniëlle Peeters,Owner Expat Tax & Global Mobility Advisor,Tax4expats,"Eindhoven, North Brabant, Netherlands",https://linkedin.com/in/daniellepeeters,,,{}
+rec_0013,prism,Cian O'Sullivan,Tax Partner,WILLIAM FRY LLP,Ireland,https://linkedin.com/in/cian-o-sullivan-3519464a,,,{}
+rec_0013,prism,Kamlesh Chauhan,Partner,Buzzacott,"London, England, United Kingdom",https://linkedin.com/in/kamchauhan,,,{}
+rec_0013,prism,Amar Kanabar,Director,Buzzacott,"Greater London, England, United Kingdom",https://linkedin.com/in/amar-kanabar-3b7b8334,,,{}
+rec_0013,prism,Veit Kachelmann,Associated Tax Advisor,LHI Group,"Pullach im Isartal, Bavaria, Germany",https://linkedin.com/in/veit-kachelmann-1525893b,,,{}
+rec_0013,prism,Jaime Segura Vico,CEO - Business & Tax Advisor,TAXMENTUM,"Granada, Spain",https://linkedin.com/in/jaimeseguralaw,,,{}
+rec_0013,prism,Karl Stückler,Lehrbeauftragter,WU (Wirtschaftsuniversität Wien),"Vienna, Vienna, Austria",https://linkedin.com/in/karl-stückler-a1980761,,,{}
+rec_0013,prism,Juliette Torres Ramos,Director,KPMG España,"Madrid, Community of Madrid, Spain",https://linkedin.com/in/juliettetorresramos,,,{}
+rec_0013,prism,George Kennington,Partner,Crowe Ireland,Ireland,https://linkedin.com/in/george-kennington-577423,,,{}
+rec_0013,prism,Jon D. Stewart CTA,Head Of Tax,Imperium Group,"Redhill, England, United Kingdom",https://linkedin.com/in/jon-d-stewart-cta,,,{}
+rec_0013,prism,Rizwan Ashraf,Partner,TC Group,"Peterborough, England, United Kingdom",https://linkedin.com/in/rizwan-ashraf,,,{}
+rec_0013,prism,Ben Gander,Tax Director,Gander Tax Services Ltd,"Greater London, England, United Kingdom",https://linkedin.com/in/ben-gander-12407326,,,{}
+rec_0013,prism,Anna Kraus,Senior Managerin,PwC Österreich,Austria,https://linkedin.com/in/anna-kraus-5b923592,,,{}
+rec_0013,prism,Christine King,Corporate Tax Senior Manager,Andersen,"Watford, England, United Kingdom",https://linkedin.com/in/christine-king-75824453,,,{}
+rec_0014,prism,Steven Dow,Senior Product UX Designer,IKEA,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/steven-a-r-dow,,,{}
+rec_0014,prism,Eugene Voroniuk,Senior Product Designer,Miro,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/eugene-voroniuk,,,{}
+rec_0014,prism,Gaurav Mathur,Lead Product Designer,LiveFlow,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/gauravmathur19,,,{}
+rec_0014,prism,Amine Rhord,Lead Product Designer,Crunchr,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/aminerhord,,,{}
+rec_0014,prism,Sergi Font,Product Designer,Gainsight,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/sergifontfr,,,{}
+rec_0014,prism,Matheus Mari,Product Design Manager,DeepL,Amsterdam Area Netherlands,https://linkedin.com/in/matheusmari,,,{}
+rec_0014,prism,Siobhan Herne,Senior Product Designer,Supermetrics,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/siobhan-herne,,,{}
+rec_0014,prism,Pavel Cherkasov,Senior Product Designer,FareHarbor,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/pavelcherkasov,,,{}
+rec_0014,prism,Bettina K,Consultant,OpenText,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/bettina-kast,,,{}
+rec_0014,prism,Sara Niemela,Senior Product Designer,Adyen,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/saraniemela,,,{}
+rec_0014,prism,Said Zadou,Senior Product Designer,Johnson & Johnson,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/said-zadou,,,{}
+rec_0014,prism,Sahil Bishnoi,Senior Product Designer,Preply,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/sahil-bishnoi-08136412b,,,{}
+rec_0014,prism,Elena Scherer,Product Design Lead,Automattic,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/elenascherer,,,{}
+rec_0014,prism,Qa'id Jacobs,Senior Product Designer,Hudl,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/qaidjacobs,,,{}
+rec_0014,prism,Aline Lickel,Chapter Lead Design,Impala Studios,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/alickel,,,{}
+rec_0015,prism,Phil Macgillivray,"Team Lead, Performance Marketing",Sendcloud,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/phil-macgillivray,,,{}
+rec_0015,prism,Maria F,Demand Marketing Manager,Unmuted | B2B SaaS Marketing,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/maria-f-a002a3139,,,{}
+rec_0015,prism,Jasper Degreef,VP Marketing,Unmuted | B2B SaaS Marketing,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/jasperdegreef,,,{}
+rec_0015,prism,Xander Wegscheider,Demand Marketing Manager,Unmuted | B2B SaaS Marketing,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/xanderwegscheider,,,{}
+rec_0015,prism,Neal Winter,Senior Demand Generation Manager,VEED.IO,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/neal-winter-a3729589,,,{}
+rec_0015,prism,Alice Frain,Snr. Manager EMEA Campaigns & Pipegen Programs,Salesforce,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/alicefrain,,,{}
+rec_0015,prism,Breno Spadotto,Demand Generation Specialist,Marvia,Amsterdam Area Netherlands,https://linkedin.com/in/brenospadotto,,,{}
+rec_0015,prism,Remco De Vries,VP of Demand Generation,DataSnipper,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/remcodv,,,{}
+rec_0015,prism,Tamas Fekete,Growth Lead,Contentoo,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/tamas-fekete-842b68116,,,{}
+rec_0015,prism,Roos Van Veen,Senior Growth Strategist,Gradient,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/roosje-kay-van-veen,,,{}
+rec_0015,prism,Filippo Irdi,Demand Generation and Growth Lead,Orderchamp,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/filippo-irdi,,,{}
+rec_0015,prism,Elena Teofilovska,Head of Marketing,Roadsoft,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/elena-fidanovska-teofilovska,,,{}
+rec_0015,prism,Despina Emmanouil,Growth Marketing,Deseo.ai,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/despoinaemmanouil,,,{}
+rec_0015,prism,Anna Ghica,Head of Regional Marketing UKI & Western Europe,nShift,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/anna-ghica,,,{}
+rec_0015,prism,Secil Egen,"Demand Generation Manager, B2B",Mindvalley,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/secilegen,,,{}
+rec_0016,prism,Feyera Liben,Research Team Leader (Systems Agronomist),Alliance of Bioversity International and CIAT,"Lilongwe, Central Region, Malawi, Malawi",https://linkedin.com/in/feyera-liben-2368b769,,,{}
+rec_0016,prism,Tarirai Muoni,Agronomist,World Vegetable Center,"Harare, Zimbabwe",https://linkedin.com/in/tarirai-muoni-2915a775,,,{}
+rec_0016,prism,Blessing Mhlanga,Associate Scientist - Cropping Systems Agronomist,International Maize and Wheat Improvement Center (CIMMYT),"Harare, Zimbabwe",https://linkedin.com/in/blessing-mhlanga-phd-88a11877,,,{}
+rec_0016,prism,Alpha Kamara,Principal Research Scientist,International Institute of Tropical Agriculture (IITA),Nigeria,https://linkedin.com/in/alpha-kamara-37b764113,,,{}
+rec_0016,prism,Hillary Otieno,Senior Agricultural Research Specialist (Agronomist),One Acre Fund,"Nairobi, Nairobi County, Kenya",https://linkedin.com/in/hillary-otieno-0a26005a,,,{}
+rec_0016,prism,Otaalo Eliud,Field Technician,International Maize and Wheat Improvement Center (CIMMYT),"Kakamega, Kakamega County, Kenya",https://linkedin.com/in/otaalo-eliud-213009118,,,{}
+rec_0016,prism,Mirriam Muli,Agronomist,Crop Nutrition Laboratory Services (Cropnuts),Kenya,https://linkedin.com/in/miriam-muli,,,{}
+rec_0016,prism,Trymore Mateyo,Research Fellow,"Genetics, Biotechnology & Seed Science Unit, University of Abomey-Calavi","Harare, Zimbabwe",https://linkedin.com/in/trymore-mateyo-5703b12a9,,,{}
+rec_0016,prism,Mercy Chinthalo,Research Associate,International Institute of Tropical Agriculture (IITA),"Lilongwe, Central Region, Malawi, Malawi",https://linkedin.com/in/mercy-chinthalo-a8023a138,,,{}
+rec_0016,prism,Owen Machuku,Agricultural Research Officer,Zambia Agriculture Research Institute,"Lusaka Province, Zambia",https://linkedin.com/in/omachuku,,,{}
+rec_0016,prism,John Azumah,Agronomist,OCP AFRICA,Ghana,https://linkedin.com/in/john-azumah-b376b380,,,{}
+rec_0016,prism,Fatai Akande,Research Assistant,International Institute of Tropical Agriculture (IITA),"Ibadan, Oyo State, Nigeria",https://linkedin.com/in/fatai-ayomide-akande-963888198,,,{}
+rec_0016,prism,Faith Gumi,Research Assistant,The University of Nottingham,"City of Johannesburg, Gauteng, South Africa",https://linkedin.com/in/faith-gumi-18b54b3a,,,{}
+rec_0016,prism,Mathew Mwarey,Maize Lethal Necrosis Farmers Trainer,KENYA SEED COMPANY LTD,Kenya,https://linkedin.com/in/mathew-mwarey-b0500717,,,{}
+rec_0016,prism,Dennis Junior Choruma,"Regional Researcher - Land, Water And Soil Solutions",International Water Management Institute (IWMI),"Pretoria, Gauteng, South Africa",https://linkedin.com/in/dennis-junior-choruma-9a573517,,,{}
+rec_0017,prism,Aislinn Fallon,Booking Agent,Futurs Proches,"Paris, Île-de-France, France",https://linkedin.com/in/aislinn-fallon-019464b0,,,{}
+rec_0017,prism,Buse Yildirim,Marketing Project Manager @Bataclan,Paris Entertainment Company,"Paris, Île-de-France, France",https://linkedin.com/in/busenazyildirim,,,{}
+rec_0017,prism,Thomas Bortolotti,Chef de projet Booking,ASTÉRIOS SPECTACLES,"Paris, Île-de-France, France",https://linkedin.com/in/thomas-bortolottı-69025882,,,{}
+rec_0017,prism,Lucie Le Cloierec,Agent & Manager d'artistes,Futurs Proches,France,https://linkedin.com/in/lucie-le-cloierec-203a5021b,,,{}
+rec_0017,prism,Claire Twardy,Booking Agent,Gérard Drouot Productions,"Paris, France",https://linkedin.com/in/claire-twardy-557a6b17,,,{}
+rec_0017,prism,Damien Bauthamy,Direction Artistique - Promoter Agent,VERYSHOW PRODUCTIONS,"Paris, France",https://linkedin.com/in/damienbauthamy,,,{}
+rec_0017,prism,Ioanna Nikas,Booking,Gérard Drouot Productions,"Paris, Île-de-France, France",https://linkedin.com/in/ioanna-nikas-25260368,,,{}
+rec_0017,prism,Anaïs Condado,Founder Creative Project Manager Artistic Direction,CA SYSTEM,"Paris, Île-de-France, France",https://linkedin.com/in/anaiscondado,,,{}
+rec_0017,prism,Alix Herrmann-Auclair,Agent & Talent Buyer,TALENT BOUTIQUE SARL,"Paris, Île-de-France, France",https://linkedin.com/in/alixheau,,,{}
+rec_0017,prism,Pauline Perez,Booking,Velvet Coliseum,France,https://linkedin.com/in/pauline-perez-0a94b749,,,{}
+rec_0017,prism,Axelle Guerra,Booking / Production,CMR | Chinese Man Records,France,https://linkedin.com/in/axelle-guerra-ba5118ab,,,{}
+rec_0017,prism,Florian L.,"Booking Agent, Artistic Manager",Bingo Booking,"Paris, Île-de-France, France",https://linkedin.com/in/florianlevrey,,,{}
+rec_0017,prism,Olivier Brisepierre,Chargé De Production & Coordination Artistique,CS PARAPROD,"Paris, Île-de-France, France",https://linkedin.com/in/dj-netik-olivier-brisepierre,,,{}
+rec_0017,prism,Jérôme Charrasse,Booking Agent Project Manager,Capitane Records,"Paris, Île-de-France, France",https://linkedin.com/in/jérôme-charrasse-94a46712a,,,{}
+rec_0017,prism,Opeyemi Oladejo,"Music Promoter Music Agent Entreprenour,Entertainment Consultancy.PR,Social-Media Infl,E-Marketer",Opzyle Media,"Lagos Mainland, Lagos State, Nigeria",https://linkedin.com/in/opeyemi-oladejo-6b607a22,,,{}
+rec_0018,prism,Marjolein de Niet - de Jager,Secretaresse Directeur TOP Sectoren En Industriebeleid,Ministerie van Economische Zaken en Klimaat,"Pijnacker, South Holland, Netherlands",https://linkedin.com/in/marjoleindeniet,,,{}
+rec_0018,prism,Birgul Samburkan,Allround Secretary,ATR (Adviescollege toetsing regeldruk),"The Hague, South Holland, Netherlands",https://linkedin.com/in/birgul-samburkan-4008386,,,{}
+rec_0018,prism,Janita Bellot,Secteary / Administrative Assistant to the Head of GALILEO Space Segment Procurement Office,European Space Agency - ESA,"The Hague, South Holland, Netherlands",https://linkedin.com/in/janita-bellot-74108235,,,{}
+rec_0018,prism,Hester Wijenberg,Interim directie-assistent en oprichter,Secretary Solutions,"Rijssen, Overijssel, Netherlands",https://linkedin.com/in/hesterwijenberg,,,{}
+rec_0018,prism,Pantha Visser,Directiesecretaresse/managementassistent,HVO-Querido,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/panthavisser,,,{}
+rec_0018,prism,Anita Hertog,Executive Secretary of the Works Council,Rijn IJssel,Arnhem-Nijmegen Region Netherlands,https://linkedin.com/in/anita-den-hertog-28490624,,,{}
+rec_0018,prism,Mariette Commadeur,Secretary,Self-employed,"The Randstad, Netherlands",https://linkedin.com/in/mariettecommadeur,,,{}
+rec_0018,prism,Cathy Malabanan,Secretary to the Chief Operations Officer,Common Fund for Commodities,"Amsterdam, North Holland, Netherlands",https://linkedin.com/in/cathy-malabanan-b35b337,,,{}
+rec_0018,prism,Wijnja Alie,Secretary,Ministerie van Veiligheid en Justitie,Greater Groningen Area Netherlands,https://linkedin.com/in/wijnja-alie-3802483b,,,{}
+rec_0018,prism,Gert-jan Van Heugten,Fondssecretaris,Actor | Partner in besturen,"Veenendaal, Utrecht, Netherlands",https://linkedin.com/in/gert-jan-van-heugten-462a6513b,,,{}
+rec_0018,prism,Lea De Bruijn,secretary,"Driestar College, reformatorische onderwijsinstelling voor vmbo, havo en vwo","The Randstad, Netherlands",https://linkedin.com/in/lea-de-bruijn-b6171243,,,{}
+rec_0018,prism,Miranda Lansbergen,Project Secretary Offshore Wind,Van Oord,"The Randstad, Netherlands",https://linkedin.com/in/miranda-lansbergen-61373a19,,,{}
+rec_0018,prism,Nicole Weber,Managementassistent,Mondial College,"Nijmegen, Gelderland, Netherlands",https://linkedin.com/in/webernicole,,,{}
+rec_0018,prism,Ellena Anastassiadis,Secretaresse Directie & Bestuur,SRA Accountantskantoren,Netherlands,https://linkedin.com/in/ellena-anastassiadis-ba8b9ba,,,{}
+rec_0018,prism,Monique Zitter-Nelis,,Zorgbalans,"Bloemendaal, North Holland, Netherlands",https://linkedin.com/in/monique-zitter-0620948486,,,{}
+rec_0019,prism,Othello Gooden,Senior Software Engineer (React.js | React Native | Node.js | Python) | Architect,Synoptek,"Austin, Texas, United States",https://linkedin.com/in/othello-gooden-7b9b2b3b,,,{}
+rec_0019,prism,Dosbol Aliev,Full-stack Developer,CodePath,"Austin, Texas, United States",https://linkedin.com/in/dosbol-aliev-511b1515a,,,{}
+rec_0019,prism,Hunter Lang,Pixel Network | Full-stack Developer,Hunter Lang Software,"Austin, Texas, United States",https://linkedin.com/in/hunter-lang-3aa1871b3,,,{}
+rec_0019,prism,Chibike Nn,Senior Full Stack Engineer,Gems Setra,"Austin, Texas Metropolitan Area United States",https://linkedin.com/in/chibike-nn-a69504253,,,{}
+rec_0019,prism,Amanda Wright,Front End Web Developer,Freelance,"Austin, Texas, United States",https://linkedin.com/in/amanda-wright-66012593,,,{}
+rec_0019,prism,Victor Lupascu,Quality Search Rater,Welocalize,"Manor, Texas, United States",https://linkedin.com/in/victor-lupascu-823650209,,,{}
+rec_0019,prism,David Alliger,Software Engineer,Trustero,"Austin, Texas, United States",https://linkedin.com/in/david-alliger-a73351208,,,{}
+rec_0019,prism,John Eidum,Software Engineering Contractor,Self-employed,"Austin, Texas, United States",https://linkedin.com/in/john-eidum-37137112a,,,{}
+rec_0019,prism,Rene Cruz,Freelance Web Developer,Self-Employed Web Developer,"Austin, Texas, United States",https://linkedin.com/in/rene-cruz-6919002a,,,{}
+rec_0019,prism,Mehari Ogbe,Full-stack Developer,General Assembly,"Austin, Texas, United States",https://linkedin.com/in/mehari-ogbe-2834a817b,,,{}
+rec_0019,prism,Jen Duffy,Software Engineering Immersive Resident,Galvanize Inc,"Austin, Texas, United States",https://linkedin.com/in/jen-m-duffy,,,{}
+rec_0019,prism,Peter Myer,Web Developer,EBQ,"Austin, Texas, United States",https://linkedin.com/in/peter-myer-10a753111,,,{}
+rec_0019,prism,Ryan Holzer,Software Engineer,H-E-B,"Austin, Texas, United States",https://linkedin.com/in/ryanjamesholzer,,,{}
+rec_0019,prism,Lukas Schweter,Senior Software Developer,Bumperactive,"Austin, Texas Metropolitan Area United States",https://linkedin.com/in/lukas-schweter,,,{}
+rec_0019,prism,Deepali Sangole,Full Stack Developer,Chingu,"Austin, Texas, United States",https://linkedin.com/in/deepali-sangole-49b0841b,,,{}
+rec_0020,prism,Vishal Harnal,Managing Partner,500 Global,Singapore,https://linkedin.com/in/vishalharnal,,,{}
+rec_0020,prism,Yash Sankrityayan,Managing Partner,Jungle Ventures,Singapore,https://linkedin.com/in/yashskn,,,{}
+rec_0020,prism,Yinglan Tan,Founding Managing Partner,Insignia Ventures Partners,Singapore,https://linkedin.com/in/yinglantan,,,{}
+rec_0020,prism,Genping Liu,Partner,Vertex Ventures SE Asia & India,Singapore,https://linkedin.com/in/liugenping,,,{}
+rec_0020,prism,Saemin Ahn,Managing Partner,Rakuten Capital,Singapore,https://linkedin.com/in/saeminahn,,,{}
+rec_0020,prism,Tiang Foo,Cofounder &,Analog Ventures,Singapore,https://linkedin.com/in/tianglim,,,{}
+rec_0020,prism,Anandamoy Roychowdhary,Managing Director,Crane Venture Partners,Singapore,https://linkedin.com/in/anandamoy,,,{}
+rec_0020,prism,Adrian Ho,Partner,Blueprint Ventures,Singapore,https://linkedin.com/in/adrianholh,,,{}
+rec_0020,prism,David Toh,Partner,Mirana Ventures,Singapore,https://linkedin.com/in/davidtyh,,,{}
+rec_0020,prism,Nicholas Yudhistira,Investor,K3 Ventures,"Singapore, Singapore",https://linkedin.com/in/nicholasyudhistira,,,{}
+rec_0020,prism,Jeremy Wong,Business Development Representative,StaffAny,Singapore,https://linkedin.com/in/jeremywong96,,,{}
+rec_0020,prism,Stephany Zoo,Head Of Ecosystem,Caladan,"Singapore, Singapore",https://linkedin.com/in/stephanyzoo,,,{}
+rec_0020,prism,Jen Loong-Goodwin,Founder & Psychotherapist,LifeLoong Therapy,"Singapore, Singapore",https://linkedin.com/in/jenloong,,,{}
+rec_0020,prism,Manoj Xavier,Product Lead,Menyala,"Singapore, Singapore",https://linkedin.com/in/manojxavier,,,{}
+rec_0020,prism,Angela Yang,Director,Single Family Office,"Singapore, Singapore",https://linkedin.com/in/angela-m-yang,,,{}
+rec_0021,prism,Kerri D,Attorney At Law,Freelance,United States,https://linkedin.com/in/kerriwd,,,{}
+rec_0021,prism,Smita Holden,Neurologist,Sutter Health,United States,https://linkedin.com/in/smita-holden-301982312,,,{}
+rec_0021,prism,Tanitra Meera,Content Creator,Instagram,"Greater London, England, United Kingdom",https://linkedin.com/in/tanitra-meera-3364a9116,,,{}
+rec_0021,prism,Nikita Bathia,Content Creator,@nikitabathia,"London, England, United Kingdom",https://linkedin.com/in/nikita-bathia-63310a22,,,{}
+rec_0021,prism,Peter N,Associate Dentist,Luminaire Dental,"Melbourne, Victoria, Australia",https://linkedin.com/in/peterhnguyen15,,,{}
+rec_0021,prism,Elisabeth Lesperance,Therapist,Allura Sex Therapy Centre,Canada,https://linkedin.com/in/elisabeth-lesperance-427916140,,,{}
+rec_0021,prism,Gio Eiras,Terapeuta emocional,Autônomo,"Rio de Janeiro, Rio de Janeiro, Brazil",https://linkedin.com/in/gio-eiras-38004951,,,{}
+rec_0021,prism,Wissal Nada,Social Media Manager,Instagram,"Biskra, Algeria",https://linkedin.com/in/wissal-nada-b9b24a194,,,{}
+rec_0021,prism,Juan Artiles,Psicólogo escolar,Colégio Estadual Luis Rogerio de Souza,Brazil,https://linkedin.com/in/juan-sacramento-artiles-452988223,,,{}
+rec_0021,prism,Pooja Kothari,Social Media Marketing Consultant,Fun2ClickPhoto,"Bethlehem, Pennsylvania, United States",https://linkedin.com/in/pooja-kothari-816a27149,,,{}
+rec_0021,prism,Isabel Megale,Blogger,Self-employed,New York City Metropolitan Area United States,https://linkedin.com/in/isabel-megale-065a49193,,,{}
+rec_0021,prism,Aline Bettu,Marketing,Instagram,"Governador Valadares, Minas Gerais, Brazil",https://linkedin.com/in/aline-bettu-a51b57235,,,{}
+rec_0021,prism,Luana Gomes,Estagiário de nutrição,Clínica de Nutrição,"Belo Horizonte, Minas Gerais, Brazil",https://linkedin.com/in/luana-bello-gomes-93a8b514a,,,{}
+rec_0021,prism,Celia Bosco,Dentist,Private Clinic,"Dili, Timor-Leste",https://linkedin.com/in/celia-bosco-aa84471ba,,,{}
+rec_0021,prism,Atefe Asghari,Dentist,Dental Clinic,Iran,https://linkedin.com/in/atefe-asghari-0108b1132,,,{}
+rec_0022,prism,Vadim Andreev,Chief Executive Officer & Co-Founder,Rokky,"London, England, United Kingdom",https://linkedin.com/in/vadim-andreev,,,{}
+rec_0022,prism,Lynton Peters,CEO,Kaizen Capital,"Gauteng, South Africa",https://linkedin.com/in/lyntonp,,,{}
+rec_0022,prism,Dominic King-Smith,Chief Operating Officer,"WisperBio, Inc.","San Diego County, California, United States",https://linkedin.com/in/rdkingsmith,,,{}
+rec_0022,prism,Marek Praschma,Managing Director,State Street,"Tampa, Florida, United States",https://linkedin.com/in/marek-praschma-13b8b111,,,{}
+rec_0022,prism,Paul Legato,Chief Executive Officer,Sunfire Labs,"Boston, Massachusetts, United States",https://linkedin.com/in/paullegato,,,{}
+rec_0022,prism,Tyler Ward,Chief Executive Officer,Sanctum AI,United States,https://linkedin.com/in/tyler-scott-ward-42638627,,,{}
+rec_0022,prism,Kurt Kober,Chief Executive Officer,Glo Skin Beauty,"West Hollywood, California, United States",https://linkedin.com/in/kurtjkober,,,{}
+rec_0022,prism,Jason Vander Pol,Chief Growth & Compliance Officer,Legato Financial Group,"Louisville, Kentucky, United States",https://linkedin.com/in/jasonvanderpol,,,{}
+rec_0022,prism,Thomas Douglas,Chief Executive Officer,JMARK - IT Support and IT Services,"Springfield, Missouri, United States",https://linkedin.com/in/thomashdouglas,,,{}
+rec_0022,prism,Russ Greene,Retired,Retired,"Arlington, Texas, United States",https://linkedin.com/in/russgreene1,,,{}
+rec_0022,prism,Beau Lescott,Founder,Adaptive Portfolio Technologies,"Bronxville, New York, United States",https://linkedin.com/in/beau-lescott-5a3199117,,,{}
+rec_0022,prism,John Kirkpatrick,Executive Advisor To The CEO,KODA Technologies Inc.,"Huntsville, Alabama, United States",https://linkedin.com/in/john-kirkpatrick-29978125,,,{}
+rec_0022,prism,Andrew Segrera,Managing Director,Firesquid Capital™,"Boca Raton, Florida, United States",https://linkedin.com/in/andrew-segrera-b14969181,,,{}
+rec_0022,prism,Paul-Michael Quintin,Area Executive Vice President,Gallagher,"Natick, Massachusetts, United States",https://linkedin.com/in/paul-michael-quintin-94b9652a,,,{}
+rec_0022,prism,Lexi Pritchard,Chief Operating Officer,Louisiana Department of Education,"Chalmette, Louisiana, United States",https://linkedin.com/in/alexis-pritchard,,,{}
+rec_0023,prism,Jerome Simmons,Senior Product Marketing Manager,Credit Karma,"San Francisco, California, United States",https://linkedin.com/in/simmonsjerome,,,{}
+rec_0023,prism,Nitzan Shmariahu,Sr Product Marketing Manager | Lead Generation Ads,Facebook,"San Francisco, California, United States",https://linkedin.com/in/nitzan-shmariahu-3a217625,,,{}
+rec_0023,prism,Ridhima Nagalia,"Product Marketing Manager II, Earners",Uber,"San Francisco, California, United States",https://linkedin.com/in/ridhimanagalia,,,{}
+rec_0023,prism,Lindsay Piper,Senior Product Marketing Manager,Sentry,"San Francisco, California, United States",https://linkedin.com/in/lindsay-piper-b839017,,,{}
+rec_0023,prism,Camila Vieira,"Product Marketing Manager, Monetization Experiences",Meta,"San Francisco, California, United States",https://linkedin.com/in/camilagvieira,,,{}
+rec_0023,prism,Meghan M,"Sr. Product Marketing Manager, Shopping & Performance Ad Solutions","Reddit, Inc.","San Francisco, California, United States",https://linkedin.com/in/meghan-mahajan,,,{}
+rec_0023,prism,Justin Law,Senior Product Marketing Manager,Flodesk,"San Francisco, California, United States",https://linkedin.com/in/justin-law,,,{}
+rec_0023,prism,Anya Gostrer,"Principal Product Marketing Manager, Observability",Splunk,"San Francisco, California, United States",https://linkedin.com/in/anyagostrer,,,{}
+rec_0023,prism,Andrew Krimstock,"Sr. Manager, Product Marketing",SimplePractice,"San Francisco, California, United States",https://linkedin.com/in/akrimstock,,,{}
+rec_0023,prism,Eric Nytko,"Group Manager, Growth Marketing, Adobe Stock",Adobe,"San Francisco, California, United States",https://linkedin.com/in/ericnytko,,,{}
+rec_0023,prism,Rick Walsworth,Director Of Product Marketing,VMware,"San Jose, California, United States",https://linkedin.com/in/rickwalsworth,,,{}
+rec_0023,prism,Guanfu Haffke,Senior Director Of Product Marketing,Odaseva,"San Mateo, California, United States",https://linkedin.com/in/guanfu-haffke,,,{}
+rec_0023,prism,Jamie S,Climatebase Fellow,Climatebase,"San Francisco, California, United States",https://linkedin.com/in/jamieshin24,,,{}
+rec_0023,prism,Robert Sulzer,Senior Market Researcher & Business Analyst,Microsoft,"San Francisco, California, United States",https://linkedin.com/in/robert-sulzer-aab26510,,,{}
+rec_0023,prism,Emily Giddings,Marketing Manager,Work & Co,"San Francisco, California, United States",https://linkedin.com/in/emilyrosegiddings,,,{}
+rec_0024,prism,Nish K,Senior AI/ML Engineer,Goldman Sachs,"Cedar Grove, New Jersey, United States",https://linkedin.com/in/nishk11,,,{}
+rec_0024,prism,Rohith Kiran,Senior GenAI ML Engineer,U.S. Bank,United States,https://linkedin.com/in/rohith-kiran-6278b6339,,,{}
+rec_0024,prism,Om Venkat Pavan Kumar Akurathi,,Seventhgen Technologies LLC,"Cape Girardeau, Missouri, United States",https://linkedin.com/in/om-venkat-pavan-kumar-akurathi-715052199,,,{}
+rec_0024,prism,Er Javed,Machine Learning Engineer,Droisys,India,https://linkedin.com/in/er-sohail-javed-54a984b3,,,{}
+rec_0024,prism,Raja Paturi,Trading,Sainsbury's,"Greater London, England, United Kingdom",https://linkedin.com/in/rajasekharreddypaturi,,,{}
+rec_0024,prism,Tyagaraj D,AI Software Engineer,Deepcept AI,"Bengaluru, Karnataka, India",https://linkedin.com/in/tyagaraj-s-d-a36733230,,,{}
+rec_0024,prism,Mohsin Mahmood,Professional Freelancer,Upwork,"Islāmābād, Pakistan",https://linkedin.com/in/mohsin-mahmood-47841255,,,{}
+rec_0024,prism,Eduardo Júnior,Dev Pleno IA/Visão Computacional,Demarco,"Ribeirão Preto, São Paulo, Brazil",https://linkedin.com/in/eduardolmsj,,,{}
+rec_0024,prism,Lohith Prasanna Teja Kakumanu,Data Scientist,Orion Innovation,"New York City Metropolitan Area, United States",https://linkedin.com/in/lohith-prasanna-teja-kakumanu-83a5a014b,,,{}
+rec_0024,prism,Jayasimha Reddy,AI ML Engineer,Comcast,"St Louis, Missouri, United States",https://linkedin.com/in/jayasimha-reddy-489050225,,,{}
+rec_0024,prism,Ahmad Shayegan,AI Developer | Data Scientist | Machine Learning Engineer,https://www.monirs.com/,"Khorramabad County, Lorestan Province, Iran",https://linkedin.com/in/ahmad-shayegan-326bb526b,,,{}
+rec_0024,prism,Anju J,AI/ML Developer,Trinity  technologies,"Kollam, Kerala, India",https://linkedin.com/in/anju-bj,,,{}
+rec_0024,prism,Wilfred Kamau,Data Scientist,Self Employed,"Nairobi County, Kenya",https://linkedin.com/in/wilfred-kamau-001134267,,,{}
+rec_0024,prism,Ravi Bedadhala,AI in Medicine Research,Quick IsCool,"Guntur East, Andhra Pradesh, India",https://linkedin.com/in/ravi-shankar-bedadhala-581750217,,,{}
+rec_0024,prism,Matheus Felipe,AI Developer,Cebraspe,"Patos de Minas, Minas Gerais, Brazil",https://linkedin.com/in/matheus-felipe-3b4908124,,,{}
+rec_0025,prism,Eric Pratt,Principal Software Engineer,EnergySage,"Boston, Massachusetts, United States",https://linkedin.com/in/ericdouglaspratt,,,{}
+rec_0025,prism,Mohan Sisodiya,Senior Software Engineer,"Thrive Bioscience, Inc.","Boston, Massachusetts, United States",https://linkedin.com/in/mohansisodiya,,,{}
+rec_0025,prism,Serhii Shramko,Senior Software Engineer,BetterMe,Greater Boston United States,https://linkedin.com/in/shramko-dev,,,{}
+rec_0025,prism,Bohan Su,Frontend Engineer - Vehicle Intelligence,Axon,Greater Boston United States,https://linkedin.com/in/bohan-byron-su,,,{}
+rec_0025,prism,Evan Hickman,Senior Frontend Engineer,IAPP,Greater Boston United States,https://linkedin.com/in/evanhickman,,,{}
+rec_0025,prism,Rakesh Vuppala,Senior Frontend Engineer,Fidelity Investments,"Boston, Massachusetts, United States",https://linkedin.com/in/rakesh-vuppala-248142160,,,{}
+rec_0025,prism,Denys Olianych,Senior Frontend Engineer,Daiichi Sankyo US,Greater Boston United States,https://linkedin.com/in/denys-jsdev,,,{}
+rec_0025,prism,Nazmuz Pranto,eCommerce Engineer,"Hydrow, Inc.",Greater Boston United States,https://linkedin.com/in/npranto,,,{}
+rec_0025,prism,Max Kohl,Senior Software Engineer,ezCater,"Boston, Massachusetts, United States",https://linkedin.com/in/max-kohl-5871729,,,{}
+rec_0025,prism,Chris Roberts,Senior UI Developer,RainFocus,Greater Boston United States,https://linkedin.com/in/xchrisroberts,,,{}
+rec_0025,prism,Jon Richards,Sr. Software Engineer,Vista Higher Learning,Greater Boston United States,https://linkedin.com/in/jon-richards-a3a90630,,,{}
+rec_0025,prism,Timothy Wilson,Senior Frontend Developer,Southern New Hampshire University,Greater Boston United States,https://linkedin.com/in/timothy-wilson-82881436,,,{}
+rec_0025,prism,Gregory Goldfarb,Principle Software Engineer,Fidelity Investments,"Boston, Massachusetts, United States",https://linkedin.com/in/goldfarbdev,,,{}
+rec_0025,prism,Victor Hernandez,Senior Frontend Developer (Engineer),Endava,"Brookline, Massachusetts, United States",https://linkedin.com/in/victorhernandezduran,,,{}
+rec_0025,prism,Jeff Preussner,Principal Frontend Developer,Velir,"Boston, Massachusetts, United States",https://linkedin.com/in/jeffpreussner,,,{}
+rec_0026,prism,José Luis Rosado,Optometrista,Oculista Valbom,"Lisbon, Portugal",https://linkedin.com/in/josé-luis-rosado-91180b48,,,{}
+rec_0026,prism,Mirtes Santos,Optometrista,Ergovisão,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/mirtes-santos-25726610b,,,{}
+rec_0026,prism,Jorge Rocha da Silva,Store Manager,GrandVision Portugal,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/jorge-rocha-da-silva-53997447,,,{}
+rec_0026,prism,António Mascarenhas Vasconcelos,Optometrista - Director Regional,MyOptique Group,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/antónio-mascarenhas-vasconcelos-53bb4a144,,,{}
+rec_0026,prism,Nathalie F.,Optometrista,Optivisão,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/nathalie-f-5b954525,,,{}
+rec_0026,prism,Telma BARROSO,Optometrista,Nacional Óptica,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/telma-barroso-101618a9,,,{}
+rec_0026,prism,FÁTIMA CUNHA,Optometrista,Optivisão - Oculista Moura,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/fátima-cunha-16413551,,,{}
+rec_0026,prism,Erica Gonçalves de Sousa,Optometrista,Óptica Olhar em Redor,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/erica-gonçalves-de-sousa-16a17791,,,{}
+rec_0026,prism,Andrea Silva,Optometry Specialist,Multiopticas,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/andrea-silva-886a90166,,,{}
+rec_0026,prism,Jason Bolenbaker,Optometrist,Visionary Eye Center,"Reno, Nevada, United States",https://linkedin.com/in/jason-bolenbaker-620b088a,,,{}
+rec_0026,prism,Mark Dworsky,Optometrist,Master Eye Associations,"Cedar Park, Texas, United States",https://linkedin.com/in/dr-mark-dworsky-32507653,,,{}
+rec_0026,prism,Carol H L Johnson,Optometrist,M Health Fairview,"Minneapolis, Minnesota, United States",https://linkedin.com/in/c2020johnson,,,{}
+rec_0026,prism,Eric Rodgers,Optometrist,Triangle Visions Optometry,"Chapel Hill, North Carolina, United States",https://linkedin.com/in/eric-rodgers-8233b118,,,{}
+rec_0026,prism,RAKESH MOHAN,Medical Director OPTOMETRIST,PERFECT-VISION L.L.C.,United Arab Emirates,https://linkedin.com/in/rakesh-mohan-83b5a124,,,{}
+rec_0026,prism,Jeremy A. Ciano,Owner And Optometrist,RevolutionEYES,"Carmel, Indiana, United States",https://linkedin.com/in/dr-jeremy-a-ciano-920b03b,,,{}
+rec_0027,prism,Jakob Berglund,Senior Frontend Lead,Folksam,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/jakobberglund,,,{}
+rec_0027,prism,Constantine Solovei,Senior Frontend Engineer,H&M Group,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/constantine-solovei,,,{}
+rec_0027,prism,Daniel Schranz,Senior Software Engineer Consulting,Sthlm Tech AB,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/daniel-schranz-78a38a7b,,,{}
+rec_0027,prism,Herman Byström,Frontend Engineer,Kustom,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/herman-byström-345309128,,,{}
+rec_0027,prism,Ali Alvi,Lead Frontend Developer,TSS,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/ali-alvi-96942a27,,,{}
+rec_0027,prism,Peyman Nasri,Senior Frontend Developer,Self Employed,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/peyman-nasri-13659447,,,{}
+rec_0027,prism,Dan P,React Frontend Engineer,H&M Group,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/cubbic,,,{}
+rec_0027,prism,Aleksandr Putilov,Frontend Developer,Granditude,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/aleksandr-putilov,,,{}
+rec_0027,prism,Mikhail Ryamov,Frontend Developer,Freedom Finance,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/mikhail-ryamov,,,{}
+rec_0027,prism,Erik Johansson,Technical Lead,Alba Health,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/erikjohansson,,,{}
+rec_0027,prism,Alvar Lagerlöf,Senior Frontend Developer,Matsmart - Motatos,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/alvarlagerlof,,,{}
+rec_0027,prism,Yoko Kizu,Frontend Developer,Wacoco,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/kizuyoko,,,{}
+rec_0027,prism,Mikael Larsson,UI Developer,Made People,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/mikaeljlarsson,,,{}
+rec_0027,prism,Joakim Lundberg,Senior Frontend Developer,Marginalen Bank,"Stockholm, Stockholm County, Sweden",https://linkedin.com/in/jockelundberg,,,{}
+rec_0027,prism,Christoffer Älvenstrand,Frontend Developer,Handelsbanken,"Stockholm, Stockholm, Sweden",https://linkedin.com/in/christofferalvenstrand,,,{}
+rec_0028,prism,Pete Karikari,Video Scout,Hartlepool United Football Club,"London, England, United Kingdom",https://linkedin.com/in/pete-karikari-1776a9242,,,{}
+rec_0028,prism,Marc Delcourt,Video Analyst – Royal Union Saint-Gilloise,Royale Union Saint-Gilloise,"Hem, Hauts-de-France, France",https://linkedin.com/in/marc-delcourt-15491772,,,{}
+rec_0028,prism,Esteban De Galarreta,Data Analyst & Technical Scout,Club de Gimnasia y Esgrima La Plata,"Neuquén, Neuquén Province, Argentina",https://linkedin.com/in/esteban-ruiz-de-galarreta-a29434275,,,{}
+rec_0028,prism,Callum Finnigan,Recruitment Scout,Barrow AFC,"Lincoln, England, United Kingdom",https://linkedin.com/in/callum-finnigan-a11276251,,,{}
+rec_0028,prism,Charlie Tennant,Opposition Analyst,Yanited FC (Baller League UK),United Kingdom,https://linkedin.com/in/charlie-tennant-46743a137,,,{}
+rec_0028,prism,Brenden Slomka,1st Team Performance Analyst,Carolina Ascent FC,"Charlotte, North Carolina, United States",https://linkedin.com/in/brendenslomka,,,{}
+rec_0028,prism,Savvas Papaioannou,Football Scout,Sports-Supreme,"Altfinnentrop, North Rhine-Westphalia, Germany",https://linkedin.com/in/savvas-papaioannou-1442a71a9,,,{}
+rec_0028,prism,Bradley Perrett,Lead Womens Analyst,Wrexham AFC,"Willand, England, United Kingdom",https://linkedin.com/in/bradley-perrett-5b415517a,,,{}
+rec_0028,prism,Phil Bashford,Events Assistant,RBG Kew,"Horsham, England, United Kingdom",https://linkedin.com/in/phil-bashford-a444781a6,,,{}
+rec_0028,prism,Joseph Wurtenberg,Academy Analyst,Nashville Soccer Club,Greater Philadelphia United States,https://linkedin.com/in/joseph-wurtenberg-765599191,,,{}
+rec_0028,prism,James Culling,,Tajikistan Football Federation,"Bristol, England, United Kingdom",https://linkedin.com/in/james-culling-1822352b9,,,{}
+rec_0028,prism,Prathmesh Phule,Elite Project Analyst- Wyscout,Hudl,"Mumbai, Maharashtra, India",https://linkedin.com/in/prathmesh-phule-472686270,,,{}
+rec_0028,prism,Andrei-ionut Bocancea,Football Video Scout,Dinamo Bucuresti,"Suceava, Romania",https://linkedin.com/in/andrei-ionut-bocancea-794071312,,,{}
+rec_0028,prism,Patryk Bialowas,Head of Research and AI Development,E-S.E.A.,"Cardiff, Wales, United Kingdom",https://linkedin.com/in/patryk-białowąs-25753a230,,,{}
+rec_0028,prism,Joe Pearce,Voluntary Fist Team Scout,Crewe Alexandra Football Club,"Ellesmere Port, England, United Kingdom",https://linkedin.com/in/joe-pearce-79a768274,,,{}
+rec_0029,prism,Txai Wieser,Software Engineer | iOS/watchOS/tvOS/watchOS/visionOS,Apple,"San Francisco, California, United States",https://linkedin.com/in/txaiwieser,,,{}
+rec_0029,prism,Phil Kirby,Senior iOS Engineer,Logic Gate Solutions,"San Francisco, California, United States",https://linkedin.com/in/📱phil-kirby-6b20727,,,{}
+rec_0029,prism,Raj Khatri,Senior iOS Engineer,Instacart,"San Francisco, California, United States",https://linkedin.com/in/raj-khatri-8700673a,,,{}
+rec_0029,prism,Scott Doerrfeld,Software Engineer,DoorDash,"San Francisco, California, United States",https://linkedin.com/in/scott-doerrfeld-b543212a,,,{}
+rec_0029,prism,Maic Sáenz,Creator and Maintainer,Ruler and Compass,"San Francisco, California, United States",https://linkedin.com/in/lopsae,,,{}
+rec_0029,prism,Chloe Horgan,Software Engineer,Apple,"San Francisco, California, United States",https://linkedin.com/in/chloe-horgan,,,{}
+rec_0029,prism,Tin Dinh,Senior iOS Developer,Southwest Airlines,"San Francisco, California, United States",https://linkedin.com/in/tingineer,,,{}
+rec_0029,prism,Andrey Belonogov,Software Engineer,LaunchDarkly,"San Francisco, California, United States",https://linkedin.com/in/andrey-belonogov-367a8510,,,{}
+rec_0029,prism,Andrii Doroshko,iOS Engineer,Walmart Global Tech,"San Francisco, California, United States",https://linkedin.com/in/andrii-doroshko,,,{}
+rec_0029,prism,Daniel-anthony Romero,iOS Engineer,Uber,"San Francisco, California, United States",https://linkedin.com/in/danielanthonyromero,,,{}
+rec_0029,prism,Adam Duflo,Senior iOS Engineer,Envoy,"San Francisco, California, United States",https://linkedin.com/in/adamduflo,,,{}
+rec_0029,prism,Ángel Ávila,iOS Engineer,Twitch,"San Francisco, California, United States",https://linkedin.com/in/angel-avila-dev,,,{}
+rec_0029,prism,Farshad Sheykhi,Senior iOS Engineer,Turo,"San Francisco, California, United States",https://linkedin.com/in/farshadtx,,,{}
+rec_0029,prism,Sruthi Guvvala,Senior Mobile Engineer,Instacart,"San Francisco, California, United States",https://linkedin.com/in/sruthi-guvvala,,,{}
+rec_0029,prism,Barath Mohan,Senior IOS Developer,Wells Fargo,"San Francisco, California, United States",https://linkedin.com/in/barath-mohan-b5b12889,,,{}
+rec_0030,prism,Tiago Vaz,1st Team Physical Performance Coach,Chelsea Football Club,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/tiago-vaz-49885563,,,{}
+rec_0030,prism,Tomás Mota,Teacher / Lecturer,Sports Academy,"Porto, Porto, Portugal",https://linkedin.com/in/tomasmotapfs,,,{}
+rec_0030,prism,Pedro Simões,Head of Performance,FC Alverca Futebol SAD,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/pedro-simoes-pbmss91,,,{}
+rec_0030,prism,João Domingues,Strength And Conditioning Coach At Hóquei Clube De Turquel,Hóquei Clube de Turquel,"Lisbon, Portugal",https://linkedin.com/in/joão-domingues-106a8b127,,,{}
+rec_0030,prism,Ivo Miguel,Guest Lecturer - Portugal Football School,FPF - Federação Portuguesa de Futebol,"Lisbon, Portugal",https://linkedin.com/in/ivomiguel,,,{}
+rec_0030,prism,Rui Santos,Head Of Performance,Futebol Clube de Famalicão - Futebol SAD,"Porto, Portugal",https://linkedin.com/in/rui-santos-a23720137,,,{}
+rec_0030,prism,André Milheiro,Sport Science & Strength And Conditioning Coach,Sporting Clube de Portugal,"Valongo, Porto, Portugal",https://linkedin.com/in/andre-milheiro,,,{}
+rec_0030,prism,Carlos Bernardo,CEO,Cabe training center,"Cascais, Lisbon, Portugal",https://linkedin.com/in/carlos-bernardo-5ba92159,,,{}
+rec_0030,prism,Catarina Bajanca,,European Football Clubs,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/catarinabajanca,,,{}
+rec_0030,prism,Manuel Vítor,Rehab Strength & Conditioning Coach At FC Porto 1st Team,FC Porto,"Porto, Porto, Portugal",https://linkedin.com/in/manuel-vítor-1728a716,,,{}
+rec_0030,prism,Lino Rebolo,Business Owner,D´Olival azeites & cia.,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/lino-rebolo-b213b564,,,{}
+rec_0030,prism,Alexandre Moreira,Data Science,Sporting Clube de Portugal,"Vila Nova de Gaia, Porto, Portugal",https://linkedin.com/in/alexandre-moreira-55859b1b8,,,{}
+rec_0030,prism,Bruno Rodrigues,Exercise Physiologist Strength And Conditioning Coach,Portuguese Institute of Sport and Youth,"Lisbon, Lisbon, Portugal",https://linkedin.com/in/bruno-rodrigues-a9a78334,,,{}
+rec_0030,prism,Nicolau Lavres,Formador,CEFAD Formação Profissional,"Aveiro, Aveiro, Portugal",https://linkedin.com/in/nicolau-lavres-671634119,,,{}
+rec_0030,prism,Patrick Filipe,Founder Of Motion Redefined | Strength and Conditioning Coach,Motion Redefined,"Lisboa, Lisbon, Portugal",https://linkedin.com/in/patrickfilipept,,,{}

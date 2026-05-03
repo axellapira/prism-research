@@ -1,0 +1,3 @@
+
+# Paper build artefacts (regenerated from paper.md via pandoc + weasyprint)
+papers/*/paper_for_pdf.html

@@ -1,0 +1,1760 @@
+{
+  "timestamp": "2026-05-03T17:39:37.110028",
+  "total_queries": 30,
+  "agents": [
+    "claude_code"
+  ],
+  "results": [
+    {
+      "query_id": "rec_0001",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "All 13 profiles explicitly list backend-focused titles such as 'Back-end Developer', 'Senior Python Developer (Backend)', 'Senior Backend Engineer', and 'Senior Node.js Engineer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "All profiles are listed as being in London or the London area (e.g., Worcester Park). The report notes that some are 'inferred' based on company location and activity, which is a transparent and standard practice in sourcing.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Every profile description explicitly mentions 'microservices architecture' or related cloud-native technologies like Kubernetes, Docker, and distributed systems. For example, Burak Durgunsu is noted for converting endpoints to reactive microservices.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.9,
+                "contextual_score": 1.0,
+                "utility_score": 0.95,
+                "verification_summary": "The provided data lists 13 individuals who are identified as backend developers in the London area with microservices experience. While external search API limits prevented real-time verification of every individual, the internal consistency of the provided LinkedIn URLs and detailed professional summaries (referencing specific companies like Valcomm, Civica, and Oracle) suggests a high degree of accuracy for the primary candidates. The report correctly identifies specific microservices-related technologies (Kubernetes, Docker, Kafka, Spring Boot) for each person.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0002",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "The individuals listed hold titles such as Principal Product Manager (Kristensen), Senior Director of Product (Salva), Product Leader (Holt/McCullough), and Product Manager (Hammond).",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "All identified individuals are explicitly listed as being based in Seattle, WA or the Greater Seattle Area.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Mads Kristensen works on Visual Studio (IDE); Ryan Salva works on AI developer tools; Matthew McCullough works on Jetpack Compose and developer productivity tooling.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "Brian Holt works on Dev Experience and AI Agents; Matthew McCullough focuses on Android developer platforms; Charles Black Hammond focuses on internal developer experience (DevEx) platforms.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.6,
+                "contextual_score": 0.65,
+                "utility_score": 0.625,
+                "verification_summary": "The search result provides a list of 10 entries. However, only 5 are specific individuals (Mads Kristensen, Ryan J. Salva, Brian Holt, Matthew J. McCullough, and Charles Black Hammond). The remaining 5 entries are generic job descriptions/open roles rather than specific people. For the individuals listed, they strongly match the criteria for Product Management roles in Seattle focused on developer tools and platforms. Mads Kristensen (Visual Studio) and Ryan Salva (Google Dev Tools) are particularly high-confidence matches.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0003",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a role as a UX Designer or equivalent (User Experience Designer, Product Designer, Interaction Designer)",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in Berlin, Germany",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has at least 2 years of professional experience in the field",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person specializes in or has significant experience with mobile application design (iOS, Android, or cross-platform mobile apps)",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). No individual could be identified or verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0004",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a role as a Machine Learning Engineer or a closely related title (e.g., ML Engineer, AI Engineer, Data Scientist specializing in ML)",
+                    "match": "met",
+                    "evidence": "The person's title is explicitly listed as 'Machine Learning Engineer | Data Scientist' at Elder Research.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in or around Boston, Massachusetts",
+                    "match": "met",
+                    "evidence": "The profile lists his location as Boston, MA, and he is associated with the Boston-based office of Elder Research.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or projects involving Large Language Models (LLMs), such as GPT, BERT, Llama, or related transformer architectures",
+                    "match": "met",
+                    "evidence": "The data indicates hands-on experience with LLM architectures, RAG (Retrieval-Augmented Generation) systems, and agentic AI workflows, which are core components of modern LLM engineering.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.9,
+                "contextual_score": 1.0,
+                "utility_score": 0.95,
+                "verification_summary": "Anders Kiss is a verified Machine Learning Engineer at Elder Research based in the Boston area. His professional profile and public contributions confirm expertise in NLP and LLM-related technologies, specifically RAG and AI agents.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0005",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a senior-level data science role (Senior Data Scientist, Lead Data Scientist, Principal Data Scientist, or equivalent)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate job title.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person has at least 5 years of professional experience in the field",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate years of experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is currently based in New York City, NY",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate location.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person works at a company within the fintech (financial technology) industry",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate company industry.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person holds a Doctor of Philosophy (PhD) degree",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate education degree.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As no individual was identified, none of the criteria can be verified.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0006",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is currently or was previously in a Venture Capital (VC) investment team role (e.g., Associate, Principal, Partner, Investment Manager)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate VC experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is currently based in Singapore",
+                    "match": "not_met",
+                    "evidence": "No location data available.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has at least 5 years of professional experience within a VC investment team",
+                    "match": "not_met",
+                    "evidence": "No professional history available to calculate years of experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person is likely under 40 years of age (inferred from graduation dates or total career length)",
+                    "match": "not_met",
+                    "evidence": "No age proxy (graduation dates or career start) available.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person is suitable for a 'Head of Fundraising' or equivalent leadership role in a tech startup",
+                    "match": "not_met",
+                    "evidence": "No seniority or role data available.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The evaluation could not be completed because the provided person data is empty/failed, and external search tools were unable to retrieve a specific profile to verify against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0007",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds or has held a senior executive role (e.g., CEO, Founder, President, Managing Director, or C-suite level)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person was a founder or key executive of a company that was successfully acquired or went through an exit",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "The exit value of a previous company associated with the person was $100 million or greater",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has experience managing or building distributed/remote teams",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has experience managing teams across multiple time zones (international or multi-regional operations)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As no specific individual was identified in the input, no verification against the criteria can be performed.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0008",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is currently based in Hangzhou, China",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person's current or recent job title is AI Agent Engineer (or closely related titles like LLM Agent Engineer, AI Engineer specializing in Agents)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is currently employed by or has recently worked at Alibaba",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person is currently employed by or has recently worked at ByteDance",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person works at either Alibaba OR ByteDance (logical OR between company constraints)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As there is no individual to evaluate, all criteria are marked as 'not_met'.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0009",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a developer specializing in Artificial Intelligence (AI Engineer, Machine Learning Engineer, Deep Learning Engineer, or AI Researcher)",
+                    "match": "not_met",
+                    "evidence": "No data provided due to system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in the San Francisco Bay Area",
+                    "match": "not_met",
+                    "evidence": "No data provided due to system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person graduated from Tsinghua University",
+                    "match": "not_met",
+                    "evidence": "No data provided due to system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person's graduation year is after 2010",
+                    "match": "not_met",
+                    "evidence": "No data provided due to system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person is considered 'top' tier (implied by high seniority, prestigious current company, or significant contributions)",
+                    "match": "not_met",
+                    "evidence": "No data provided due to system error.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The search for this person failed entirely due to a remote connection error. No person data was provided to verify.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0010",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person currently holds a Product Manager role (e.g., Product Manager, Senior PM, Lead PM, Head of Product)",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate job title.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Paris, France (including the surrounding metropolitan area)",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate location.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on consumer-facing mobile applications (B2C mobile apps)",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate mobile app experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has previous experience at companies that have reached at least a Series A funding stage or later (Series A, B, C, etc., or public companies)",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate company funding history.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As a result, no individual could be identified or verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0011",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.875,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Director-level sales role (Sales Director, Director of Sales, Head of Sales, or equivalent)",
+                    "match": "met",
+                    "evidence": "Currently VP of Revenue & Growth; previously held senior leadership roles. VP is senior to and equivalent to a Director-level sales role.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in the Chicago, Illinois metropolitan area",
+                    "match": "met",
+                    "evidence": "Data and professional profiles confirm he is located in the Chicago, IL area.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has at least 5 years of professional experience in sales",
+                    "match": "met",
+                    "evidence": "Bio indicates over two decades (20+ years) of experience in B2B sales and revenue growth.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has experience in the B2B (Business-to-Business) software or SaaS industry",
+                    "match": "partially_met",
+                    "evidence": "While he has deep B2B experience and works with 'technology-led solutions,' his primary industry focus is BPO, Private Equity, and Accounting/Consulting (Armanino) rather than being a dedicated software/SaaS sales director.",
+                    "confidence": "medium"
+                  }
+                ],
+                "relevance_grade": 0.875,
+                "structural_score": 0.8,
+                "contextual_score": 0.65,
+                "utility_score": 0.725,
+                "verification_summary": "Joseph Chivini is a senior revenue leader based in Chicago. While he holds a VP-level role (exceeding the Director requirement) and has over 20 years of B2B experience, his current and recent focus is heavily centered on Business Process Outsourcing (BPO) and professional services (Armanino LLP) rather than pure-play B2B software/SaaS, though he utilizes SaaS tools (Salesforce, Marketo) extensively in his strategies.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.875
+    },
+    {
+      "query_id": "rec_0012",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 6,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a senior-level backend engineering role (Senior Backend Engineer, Lead Backend Engineer, or equivalent)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Toronto, Ontario, Canada",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience with the Go (Golang) programming language",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience with the Rust programming language",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person works at a startup (typically characterized by company size, funding stage, or industry classification)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c6",
+                    "description": "Person has at least 5 years of total professional experience in software engineering",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As a result, no specific individual could be verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0013",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a tax advisor or tax consultant (e.g., Tax Advisor, Tax Consultant, CPA, Tax Lawyer, or International Tax Specialist)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Europe (any European country or region)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has an active presence on LinkedIn",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person regularly posts or shares content related to tax compliance and practical advice",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person is trusted by or specifically targets startup founders (evidenced by client testimonials, endorsements from founders, or content tailored to the startup ecosystem)",
+                    "match": "not_met",
+                    "evidence": "No person data provided.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As no individual was identified in the input, all criteria are marked as not met.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0014",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a role as a Product Designer (or equivalent titles like UX Designer, UI/UX Designer, or Interaction Designer)",
+                    "match": "met",
+                    "evidence": "Jack Brugger is listed as a Lead/Senior Product Designer; others hold titles like Staff Product Designer or Founding Designer.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in Amsterdam, Netherlands (or the surrounding metropolitan area)",
+                    "match": "met",
+                    "evidence": "All candidates are explicitly located in Amsterdam or the Amsterdam metropolitan area.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on B2B (Business-to-Business) products",
+                    "match": "met",
+                    "evidence": "Candidates work for or have experience with B2B entities like Adyen, DeepL, and Shiftbase.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on SaaS (Software as a Service) platforms",
+                    "match": "met",
+                    "evidence": "Bios explicitly mention 'enterprise SaaS', 'B2B SaaS localization platform', and 'pharma supply chain SaaS'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.95,
+                "contextual_score": 1.0,
+                "utility_score": 0.975,
+                "verification_summary": "The person data provides 12 highly relevant candidates in Amsterdam. Verification of the primary candidate (Jack Brugger) and secondary candidates (e.g., Caue Benedan at DeepL, Eugene Voroniuk at Miro) confirms they meet all criteria for Product Design roles within the B2B SaaS sector in the specified geography.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0015",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a role related to growth marketing (e.g., Growth Marketer, Growth Lead, Performance Marketer, Demand Generation Manager)",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate job title.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in or around Amsterdam, Netherlands",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate location.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working with B2B (Business-to-Business) products",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate B2B experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working with SaaS (Software as a Service) products",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate SaaS experience.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has at least 3 years of total professional experience in the marketing field",
+                    "match": "not_met",
+                    "evidence": "No data provided to evaluate years of experience.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). No individual could be identified or verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0016",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is an agricultural scientist (includes roles like Agronomist, Crop Scientist, Agricultural Researcher, or Soil Scientist)",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in a country within the continent of Africa",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person's work or research focuses on food security",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person's work or research focuses on crop science",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person's work or research focuses on sustainable farming or sustainable agriculture",
+                    "match": "not_met",
+                    "evidence": "No person data provided; status is 'failed'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As no individual was identified, none of the criteria can be verified.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0017",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a Booking Agent or Talent Agent",
+                    "match": "not_met",
+                    "evidence": "No person data provided to verify title.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person specializes in the Electronic Music genre (including House, Techno, Deep House, etc.)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to verify industry specialization.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is based in France",
+                    "match": "not_met",
+                    "evidence": "No person data provided to verify location.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person represents artists who have performed at or are booked for high-end/luxury nightlife venues (e.g., Raspoutine Paris, Buddha Bar Paris, Casa Amor, Baoli Cannes, Jimmy’z Monte-Carlo, L'Isabelle Saint-Tropez, FVTVR Paris)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to verify venue portfolio.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person is considered 'top' tier (implies seniority, working at a reputable agency, or managing high-profile talent)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to verify seniority or tier.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The evaluation could not be performed because the input person data is empty/failed, and no specific individual was identified for verification.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0018",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a secretarial or administrative assistant role (Secretaresse, Management Assistent, Office Manager, or equivalent)",
+                    "match": "not_met",
+                    "evidence": "No person data available to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is employed by a government agency or public sector organization (Overheidsinstantie, Gemeente, Ministerie, Provincie, or semi-overheid)",
+                    "match": "not_met",
+                    "evidence": "No person data available to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person's role likely involves minute-taking or transcription (Notuleren)",
+                    "match": "not_met",
+                    "evidence": "No person data available to evaluate.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As a result, no individual could be identified or verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0019",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.8,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a Full-stack Developer (or equivalent titles like Software Engineer, Full Stack)",
+                    "match": "met",
+                    "evidence": "All 10 individuals are explicitly listed with titles such as 'Senior Full Stack Engineer', 'Full Stack Developer', or 'Software Engineer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in Austin, Texas",
+                    "match": "partially_met",
+                    "evidence": "While most are listed in Austin, Austin Rios is noted as being in Aubrey, TX (which is ~200 miles from Austin), and candidates 9 and 10 are explicitly noted as being in Melbourne and St. Louis respectively.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or proficiency with React",
+                    "match": "met",
+                    "evidence": "All 10 profiles explicitly list React or React.js in their titles or bios.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience or proficiency with Node.js",
+                    "match": "met",
+                    "evidence": "9 out of 10 profiles (excluding Austin Lancaster) explicitly list Node.js proficiency.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has professional experience or proficiency with Python",
+                    "match": "partially_met",
+                    "evidence": "Only 5 out of 10 candidates (Rios, Light, Destefano, Gooden, Lancaster) are credited with Python experience. Others like Zakvi, Ontiveros, and Burris focus on the MERN stack without Python mentioned.",
+                    "confidence": "medium"
+                  }
+                ],
+                "relevance_grade": 0.8,
+                "structural_score": 0.9,
+                "contextual_score": 0.65,
+                "utility_score": 0.775,
+                "verification_summary": "The provided data contains a list of 10 individuals. I focused verification on the top candidates who claimed to meet all criteria (React, Node.js, and Python). Austin Light and Joseph Destefano are the strongest matches, explicitly listing all three technologies and the correct location. Austin Rios is a strong match but is located in the Austin 'Metropolitan Area' (specifically Aubrey, TX, which is actually near Dallas, suggesting a potential data hallucination or relocation error in the source). Several other candidates (Zakvi, Ontiveros, Burris) lack Python experience, and some (Lancaster, Long) are no longer in Austin.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.8
+    },
+    {
+      "query_id": "rec_0020",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is currently or was previously in a Venture Capital (VC) investment role (e.g., Associate, Principal, Partner, Investment Manager)",
+                    "match": "not_met",
+                    "evidence": "No data provided; input contains a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is currently based in Singapore",
+                    "match": "not_met",
+                    "evidence": "No data provided; input contains a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has at least 5 years of experience working within a VC investment team",
+                    "match": "not_met",
+                    "evidence": "No data provided; input contains a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person is suitable for a 'Head of Fundraising' or equivalent leadership role",
+                    "match": "not_met",
+                    "evidence": "No data provided; input contains a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has experience or background relevant to the technology startup sector",
+                    "match": "not_met",
+                    "evidence": "No data provided; input contains a system error message.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The input data provided for this person is an error message ('Remote end closed connection without response'). No personal identity, professional history, or location data was provided to evaluate.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0021",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a self-employed professional or freelancer (e.g., lawyer, doctor, dentist, architect, consultant, or similar 'profissional liberal')",
+                    "match": "not_met",
+                    "evidence": "No person data provided; the input contains only a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person has an active presence on Instagram",
+                    "match": "not_met",
+                    "evidence": "No social media links or profile information available.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is currently active (posting content or engaging recently)",
+                    "match": "not_met",
+                    "evidence": "No activity data available.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is an error message ('Remote end closed connection without response'). No individual was identified, making verification impossible.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0022",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds or has held a senior executive role (e.g., CEO, Founder, President, Managing Director, or C-suite level)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person was a founder or key executive of a company that was successfully acquired or went through an exit",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "The exit value of a previous company associated with the person was $100 million or greater",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has experience managing or building distributed/remote teams",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has experience managing teams across multiple time zones (international or multi-regional operations)",
+                    "match": "not_met",
+                    "evidence": "No person data provided to evaluate.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). As no individual was identified in the input, no criteria can be verified.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0023",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds the job title of Product Marketing Manager (PMM) or a closely related equivalent.",
+                    "match": "not_met",
+                    "evidence": "The data contains no name or job title; it is a system error message.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in San Francisco, California.",
+                    "match": "not_met",
+                    "evidence": "No location data is present.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has specific experience or skills in 'go-to-market' (GTM) strategies.",
+                    "match": "not_met",
+                    "evidence": "No skills or experience data are present.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is an error message ('Remote end closed connection without response') rather than a profile. No individual could be identified or verified.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0024",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 2,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a specialist in Artificial Intelligence (IA/AI)",
+                    "match": "not_met",
+                    "evidence": "No data available to evaluate AI expertise.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person holds a professional role related to Artificial Intelligence (e.g., AI Engineer, AI Researcher, AI Consultant, Specialist in AI)",
+                    "match": "not_met",
+                    "evidence": "No data available to evaluate professional role.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is empty due to a system failure ('Remote end closed connection without response'). No name or identifying information was provided to verify.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0025",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a senior-level role (Senior, Staff, Principal, or Lead)",
+                    "match": "met",
+                    "evidence": "His current title is 'Senior Software Engineer' at System1.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is a Frontend Engineer or Software Engineer specializing in frontend technologies (React, Vue, Angular, etc.)",
+                    "match": "met",
+                    "evidence": "He specializes in React, Vue.js, and TypeScript, with a focus on crafting user interfaces.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is located in or around Boston, Massachusetts",
+                    "match": "met",
+                    "evidence": "Location is listed as Boston, MA (Greater Boston), with confirmed activity at Suno's Boston office.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has specific experience or skills in performance optimization (e.g., web vitals, load time reduction, rendering optimization)",
+                    "match": "met",
+                    "evidence": "The profile explicitly mentions migrating MapQuest.com to Next.js to improve website performance and an interest in 'highly performant user interfaces'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Christopher Anderson is a Senior Software Engineer at System1, based in the Greater Boston area. His profile explicitly mentions performance optimization work, specifically migrating MapQuest.com to Next.js to improve performance and developer experience. He uses a modern frontend stack (React, Vue, TypeScript).",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0026",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 2,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a professional optometrist (optometrista)",
+                    "match": "met",
+                    "evidence": "Henrique Nascimento is a professional in the field of optometry, specifically linked to the UPOOP (União Profissional dos Ópticos e Optometristas Portugueses) and cited as an expert in the sector.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in or practices in Lisbon, Portugal (Lisboa)",
+                    "match": "met",
+                    "evidence": "The data and professional profiles locate him in Lisbon, Portugal, where the UPOOP headquarters and his professional activities are centered.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 0.65,
+                "utility_score": 0.725,
+                "verification_summary": "The evaluation focused on Henrique Nascimento, the first individual listed in the provided data. Verification confirms he is a prominent figure in the Portuguese optometry sector, serving as a director/representative for UPOOP (União Profissional dos Ópticos e Optometristas Portugueses). While his primary role in the data is administrative/representative, he is a trained professional in the field and is based in Lisbon.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0027",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 5,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a senior-level role (Senior, Lead, Staff, or Principal)",
+                    "match": "met",
+                    "evidence": "Current title is 'Senior Frontend Engineer' at Bokus.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is a Frontend Developer or Software Engineer with a frontend focus",
+                    "match": "met",
+                    "evidence": "Title is 'Senior Frontend Engineer' and bio specifies specialization in React, Next.js, and modern web technologies.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is located in Stockholm, Sweden",
+                    "match": "met",
+                    "evidence": "Location is explicitly stated as Stockholm, Sweden.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience or expertise with React",
+                    "match": "met",
+                    "evidence": "Bio explicitly lists React as a primary specialization and mentions past projects using React.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c5",
+                    "description": "Person has professional experience or expertise with TypeScript",
+                    "match": "met",
+                    "evidence": "Bio explicitly lists TypeScript as a primary specialization and mentions past projects using TypeScript.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "The person data provided for Håkan Nordström was verified against the criteria. He is a Senior Frontend Engineer at Bokus in Stockholm with explicit expertise in React and TypeScript. While external search engines were rate-limited during this specific check, the provided LinkedIn URL and detailed bio (referencing specific Swedish companies like Aftonbladet and Bokus) align perfectly with the search requirements.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0028",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person works as a Game Analyst (Analista de Jogo) or Performance Analyst in football/soccer",
+                    "match": "not_met",
+                    "evidence": "The data provided is a system error message, not a person's profile.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person works as a Scout (Scouting) or Talent Identification professional in football/soccer",
+                    "match": "not_met",
+                    "evidence": "The data provided is a system error message, not a person's profile.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is currently employed or active in the professional football (soccer) industry",
+                    "match": "not_met",
+                    "evidence": "The data provided is a system error message, not a person's profile.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person is considered high-performing or 'top-tier' (implied by 'os melhores'), often indicated by working at top-flight clubs or having significant experience",
+                    "match": "not_met",
+                    "evidence": "The data provided is a system error message, not a person's profile.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The input data provided for evaluation is a system error message ('Remote end closed connection without response') rather than a person's profile. Consequently, no individual could be verified against the criteria.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    },
+    {
+      "query_id": "rec_0029",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is an iOS Developer (including titles like Mobile Engineer, iOS Engineer, or iPhone Developer)",
+                    "match": "met",
+                    "evidence": "The person's title is 'Senior iOS Developer' at Albertsons Companies.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in San Francisco, California",
+                    "match": "met",
+                    "evidence": "The profile explicitly states the location as San Francisco, CA.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has at least 3 years of professional experience working with the Swift programming language",
+                    "match": "met",
+                    "evidence": "Nikoloz has been working as an iOS developer since at least 2017 (Zalando, Albertsons), using Swift as his primary language for over 6 years.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has at least 3 years of professional experience working with the SwiftUI framework",
+                    "match": "met",
+                    "evidence": "As a Senior iOS Developer at Albertsons (since 2021) and previously at Zalando, he has been working with SwiftUI in production environments for 3+ years, as evidenced by his 'SwiftUI Expert' designation in his profile.",
+                    "confidence": "medium"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "The person evaluated is Nikoloz E. (Nikoloz Ergemlidze), a Senior iOS Developer at Albertsons Companies. He is based in San Francisco and has extensive experience with Swift and SwiftUI, having worked in iOS development for over 7 years across companies like Zalando and Albertsons.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0030",
+      "agent_name": "claude_code",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.0,
+          "details": {
+            "num_persons": 1,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "(unknown)",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person is a Strength and Conditioning Coach (or equivalent titles like S&C Coach, Performance Coach, or Physical Trainer)",
+                    "match": "not_met",
+                    "evidence": "No person data provided due to a system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is located in Portugal",
+                    "match": "not_met",
+                    "evidence": "No person data provided due to a system error.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person is highly rated or recognized as 'best' in their field (implies high experience level, notable certifications, or employment at elite sports organizations)",
+                    "match": "not_met",
+                    "evidence": "No person data provided due to a system error.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 0.0,
+                "structural_score": 0.0,
+                "contextual_score": 0.0,
+                "utility_score": 0.0,
+                "verification_summary": "The person data provided is an error message ('Remote end closed connection without response'), meaning no specific individual was returned for evaluation. Consequently, none of the criteria can be verified.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.0
+    }
+  ],
+  "summary": {
+    "claude_code": {
+      "criteria": 0.3225,
+      "weighted_avg": 0.3225
+    }
+  }
+}

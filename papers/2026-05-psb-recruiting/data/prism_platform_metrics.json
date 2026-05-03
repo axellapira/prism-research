@@ -1,0 +1,36 @@
+{
+  "per_seed": {
+    "1": {
+      "relevance_precision": 89.94,
+      "effective_coverage": 95.33,
+      "information_utility": 83.99,
+      "overall": 89.75333333333333,
+      "task_completion_rate": 100.0,
+      "mean_qualified_results": 14.3
+    },
+    "2": {
+      "relevance_precision": 89.67,
+      "effective_coverage": 95.56,
+      "information_utility": 84.02,
+      "overall": 89.75,
+      "task_completion_rate": 100.0,
+      "mean_qualified_results": 14.3
+    },
+    "3": {
+      "relevance_precision": 89.45,
+      "effective_coverage": 94.89,
+      "information_utility": 83.83,
+      "overall": 89.39,
+      "task_completion_rate": 100.0,
+      "mean_qualified_results": 14.2
+    }
+  },
+  "mean": {
+    "relevance_precision": 89.68666666666667,
+    "effective_coverage": 95.26,
+    "information_utility": 83.94666666666666,
+    "overall": 89.63111111111111,
+    "task_completion_rate": 100.0,
+    "mean_qualified_results": 14.266666666666667
+  }
+}

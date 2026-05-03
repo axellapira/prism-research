@@ -1,0 +1,1144 @@
+{
+  "timestamp": "2026-05-03T18:11:00.877264",
+  "total_queries": 2,
+  "agents": [
+    "prism"
+  ],
+  "results": [
+    {
+      "query_id": "rec_0001",
+      "agent_name": "prism",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 1.0,
+          "details": {
+            "num_persons": 15,
+            "criteria_count": 3,
+            "person_evaluations": [
+              {
+                "person_name": "Thomas Wilks",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Currently a Full Stack Engineer at Vanti, but previously held the title 'Backend Software Engineer' at RealWear. His core technical focus is on server-side technologies like .NET and C#.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "LinkedIn profile and person data confirm he is based in London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Explicitly listed in skills and match summary. LinkedIn endorsements and recommendations mention his work on 'distributed systems' and 'messaging throughput' for the RealWear Cloud platform.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Thomas Wilks is a Software Engineer currently at Vanti in London. While his current title is 'Full Stack Engineer', his professional background and endorsements strongly emphasize backend expertise, specifically in .NET, C#, and distributed systems/microservices. His previous role at RealWear involved building cloud platforms with microservices architecture.",
+                "error": null
+              },
+              {
+                "person_name": "Osezele Orukpe",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's current title is 'Lead Backend Engineer' and the headline is 'Software Engineer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "The location is explicitly stated as 'London, England, United Kingdom'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The bio and match summary state the candidate has 'direct experience in building microservices'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.7,
+                "contextual_score": 0.65,
+                "utility_score": 0.675,
+                "verification_summary": "The person's data matches the query criteria based on the provided profile, though external web verification was inconclusive. The profile explicitly lists the role as 'Lead Backend Engineer' at 'Blueloop' in 'London'. The bio and match summary specifically mention experience with microservices and cloud infrastructure (AWS, GCP, Azure). However, a web search for 'Osezele Orukpe' did not yield a public LinkedIn profile or company page confirming this specific individual in this role (a search result for a similarly named 'Osezele Ukpebor' appeared but is a different person/role).",
+                "error": null
+              },
+              {
+                "person_name": "Masoonah Musthafa",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "LinkedIn headline explicitly includes 'Backend Developer' and 'Java Backend Developer'. Her bio confirms she is an 'experienced Java Backend Developer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom. Professional history shows she moved to the London area in February 2022.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "LinkedIn headline and skills list 'Microservices' and 'Spring Boot'. The match summary confirms verified experience with microservices architecture.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Masoonah Musthafa is a Software Developer currently based in London. While her official title at Infosys is 'Technology Analyst', her LinkedIn headline and professional summary explicitly state she is a 'Backend Developer' and 'Java Backend Developer'. She has been working in London since early 2022 (initially with Infosys and more recently with bp). Her profile explicitly lists 'Microservices' as a core skill and area of experience.",
+                "error": null
+              },
+              {
+                "person_name": "Pavithra D",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Java Engineer' and headline explicitly includes 'Backend Development' and 'Senior Software Engineer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as 'London Area, United Kingdom'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Headline includes 'Microservices' and 'Spring Boot'. The bio/match summary confirms 7 years of backend experience and proficiency in microservices.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "The person was verified as a Java Engineer at FDM Group in London. While the specific LinkedIn URL provided in the data was not directly accessible via search snippets, the internal data and headline ('Senior Software Engineer | Java | Spring Boot | Microservices') strongly align with the query requirements.",
+                "error": null
+              },
+              {
+                "person_name": "Steve Hunneyball",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Back End Developer' at Happl.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The match summary and query insights explicitly state he has 'specific expertise' and 'direct hands-on exp' in microservices architecture.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.7,
+                "contextual_score": 0.65,
+                "utility_score": 0.675,
+                "verification_summary": "Steve Hunneyball's profile data matches all criteria. He is currently a Back End Developer at Happl in London. While the raw skills list is generic, the match summary and query insights explicitly confirm direct hands-on experience with microservices architecture.",
+                "error": null
+              },
+              {
+                "person_name": "Gaëlle Frappin",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's headline is 'Backend Senior Software Engineer' and her current title is 'Senior Software Engineer (VP)'. The skills list includes 'back-end' and 'software engineering'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "The location is explicitly listed as 'Greater London, England, United Kingdom'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The bio and match summary explicitly mention 'strong expertise in microservices architecture' and 'hands-on experience with monolith decomposition'. 'Microservices' is also listed in the skills section.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Gaëlle Frappin is a Senior Software Engineer (VP) at J.P. Morgan Asset Management in London. Her profile and the provided data confirm she specializes in backend development with specific expertise in microservices architecture, including monolith decomposition.",
+                "error": null
+              },
+              {
+                "person_name": "Meghna Ghai",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's headline is 'Senior Backend Engineer' and her current title at Wise is 'Engineer L3'. The match summary explicitly identifies her as a backend engineer.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "The location is explicitly listed as London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The match summary states she has 'extensive experience in microservices' and is a 'microservices expert'. Her skills include Java and Spring Boot, which are standard for microservices in backend environments.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Meghna Ghai is verified as a Senior Backend Engineer at Wise (formerly TransferWise) based in London. Her profile and match summary explicitly confirm her expertise in backend development and microservices architecture.",
+                "error": null
+              },
+              {
+                "person_name": "Santiago Eliard",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's current title is 'Senior Software Engineer' at Pulselive, and the raw data/headline explicitly identifies him as a 'Backend Software Engineer'. Pulselive's engineering roles for this level are backend-focused (Java/Spring).",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "LinkedIn and profile data confirm he is based in London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The match summary and query insights specify 16 years of experience including microservices architecture using Java, Spring, and Kubernetes. Pulselive's job descriptions for his role also emphasize microservices and RESTful APIs.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Santiago Eliard is a Senior Software Engineer at Pulselive in London. His profile and the company's tech stack (Java, Spring Boot, Microservices) confirm he is a backend-focused engineer with the required architectural experience.",
+                "error": null
+              },
+              {
+                "person_name": "Jitu M",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Backend Engineer' at Zencargo. Previous roles include 'Consultant' (focused on backend development) and 'Java Developer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom in both the provided data and LinkedIn profile.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Skills list includes 'microservices'. LinkedIn experience at Ensono Digital explicitly states: 'Developed microservices using java(spring boot)'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Jitu M is a Backend Engineer currently working at Zencargo in London. Web search confirms his professional history, including a long tenure at Ensono Digital where he specifically developed microservices using Java and Spring Boot. The data provided in the profile aligns perfectly with his public LinkedIn presence.",
+                "error": null
+              },
+              {
+                "person_name": "Subhransu Das",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's headline explicitly includes 'Backend Engineer' and his skills list 'software engineering' and 'web development' at a major bank (Lloyds Banking Group).",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "The person is located in Ilford, England, United Kingdom. Ilford is part of the London Borough of Redbridge and is considered part of the Greater London area.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The person's skills list 'microservices' and the match summary confirms 'direct expertise in microservices architecture'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Subhransu Das is a Software Engineer at Lloyds Banking Group. While his current title is generic, his profile headline and skills explicitly list 'Backend Engineer' and 'Microservices'. He is located in Ilford, which is within the Greater London metropolitan area and a common residential area for London professionals.",
+                "error": null
+              },
+              {
+                "person_name": "Peter S",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Senior Java Backend Developer' at Ticketmaster UK.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The match summary and bio explicitly state he has 'deep, practical knowledge of microservices architecture' and event-driven patterns.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "The candidate, Peter S, is a Senior Java Backend Developer at Ticketmaster UK in London. His profile and the provided match summary explicitly confirm his role in backend development, his location in London, and his extensive experience with microservices architecture, AWS, and event-driven patterns.",
+                "error": null
+              },
+              {
+                "person_name": "José Alves",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "The person's current title is 'Principal Software Engineer' at TP ICAP, and his headline explicitly lists 'Backend' and backend-heavy languages like C#, Python, and Golang.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "The person's location is listed as London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The headline explicitly includes 'Microservices' and 'Distributed Systems'. The match summary also highlights his direct alignment with technical requirements for microservices architecture.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "José Alves is verified as a Principal Software Engineer at TP ICAP in London. His profile headline and match summary explicitly confirm his expertise in backend technologies (C#, Python, Golang) and microservices architecture.",
+                "error": null
+              },
+              {
+                "person_name": "Jyotirmay Mishra",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Backend Engineer - Scala' at Ocado Technology.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Headline explicitly states 'Developing Full Stack Distributed apps and Microservices using Akka, Scala...'. Match summary also notes he is an 'expert in microservices'.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.9,
+                "contextual_score": 1.0,
+                "utility_score": 0.95,
+                "verification_summary": "Jyotirmay Mishra is a Backend Engineer at Ocado Technology in London. His profile explicitly mentions building microservices using Scala, Akka, and Java on AWS, which aligns perfectly with the search criteria.",
+                "error": null
+              },
+              {
+                "person_name": "Sreenu Kamireddy",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Senior Backend Developer' at Abound.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is confirmed as London, United Kingdom via LinkedIn and professional directories.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "Skills list includes 'microservices' and 'spring boot'. Bio confirms deep knowledge of microservices architecture and cloud tools like Docker/Kubernetes.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.9,
+                "contextual_score": 1.0,
+                "utility_score": 0.95,
+                "verification_summary": "Sreenu Kamireddy is a Senior Backend Developer currently working at Abound (formerly Fintern) in London. Web search confirms his role, location, and extensive background in Java-based backend development. His profile explicitly lists microservices as a core skill, and his work history at fintech companies like Abound supports this expertise.",
+                "error": null
+              },
+              {
+                "person_name": "Xiaoxin Xu",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a backend development role (e.g., Backend Engineer, Software Engineer - Backend, Server-side Developer)",
+                    "match": "met",
+                    "evidence": "Current title is 'Senior Backend Developer' at LemFi; LinkedIn profile confirms 'Senior Backend Engineer'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in London, United Kingdom",
+                    "match": "met",
+                    "evidence": "Location is listed as London, England, United Kingdom in both the provided data and LinkedIn profile.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience or skills related to microservices architecture",
+                    "match": "met",
+                    "evidence": "The match summary and query insights explicitly mention 'direct, deep expertise in microservices'. His published book also covers backend core technologies and practices relevant to this architecture.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Xiaoxin Xu is a Senior Backend Engineer at LemFi based in London. Verification confirms over 14 years of experience with a specific focus on backend systems and microservices. He is also the author of a book on backend development ('后台开发：核心技术与应用实践').",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 1.0
+    },
+    {
+      "query_id": "rec_0002",
+      "agent_name": "prism",
+      "scores": [
+        {
+          "metric_name": "criteria",
+          "score": 0.9667,
+          "details": {
+            "num_persons": 15,
+            "criteria_count": 4,
+            "person_evaluations": [
+              {
+                "person_name": "Allison Weins",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "She holds the title of Director of Product Management at GitHub and was previously a Senior Product Manager.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Her location is listed as Greater Seattle Area, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "She has extensive experience with developer tools such as VS Code and GitHub Copilot (AI-powered coding assistant).",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "She works on GitHub Codespaces, which is a cloud-based development platform/PaaS, and her role at GitHub inherently involves developer ecosystems.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Allison Weins is a highly relevant match. She is currently a Director of Product Management at GitHub (formerly Senior PM) based in the Seattle area. Her professional focus is explicitly on developer tools and platforms, including GitHub Copilot, GitHub Codespaces, and VS Code, as confirmed by both the provided data and external event records (Microsoft Build).",
+                "error": null
+              },
+              {
+                "person_name": "Soojin Choi",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "The person's title is 'Senior Product Manager' at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "The location is listed as 'Greater Seattle Area United States'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Her LinkedIn headline is 'Product Manager, Developer Tools @ Microsoft'. Search results confirm she works on tools like VS Code and Jupyter Notebooks for Python developers.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "She works on Azure-related developer experiences, including deploying ML apps to Azure Container Instances, which falls under cloud infrastructure/developer platforms.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Soojin Choi is a Senior Product Manager at Microsoft based in the Seattle area. Her professional focus is explicitly on developer tools and platforms, specifically within the Azure and VS Code ecosystems, as confirmed by her LinkedIn headline and public speaking engagements regarding Python development tools and Azure deployment.",
+                "error": null
+              },
+              {
+                "person_name": "Evangeline Liu",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Senior Product Manager at GitHub.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Greater Seattle Area United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Works at GitHub, a primary developer tool company; bio specifies experience in DevOps and developer collaboration tools.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "GitHub is a major developer platform; bio confirms experience with developer collaboration platforms and previous experience at Microsoft.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.7,
+                "contextual_score": 0.65,
+                "utility_score": 0.675,
+                "verification_summary": "Evangeline Liu is a Senior Product Manager at GitHub based in the Seattle area. Her professional background at GitHub and previously at Microsoft (as indicated in the bio and verified via general industry knowledge of her profile) confirms extensive experience in developer tools and platforms, specifically within DevOps and developer collaboration ecosystems.",
+                "error": null
+              },
+              {
+                "person_name": "Sandeep Sen",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Senior Product Manager at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Greater Seattle Area, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He is a Product Manager for the Azure SDK and has published technical blogs regarding client libraries for Go and Azure MCP Server, which are core developer tools.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "His work on Azure SDK and Azure MCP Server (for agentic cloud automation) is part of the Azure cloud infrastructure and developer ecosystem/platform.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Sandeep Sen is a Senior Product Manager at Microsoft based in the Greater Seattle Area. He specifically works on the Azure SDK (Software Development Kit) and Azure MCP (Model Context Protocol) Server, which directly involves building developer tools and managing a cloud-based developer platform.",
+                "error": null
+              },
+              {
+                "person_name": "James Ma",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Senior Product Manager at Google.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is confirmed as Seattle, Washington.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He has direct experience with developer tools, specifically CI/CD platforms like CircleCI.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "He has extensive experience in developer platforms and cloud infrastructure through his work at Pivotal and Google Cloud (GCP).",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "James Ma is a Senior Product Manager at Google based in Seattle. His professional background strongly aligns with the query, featuring significant experience at CircleCI (a CI/CD developer tool) and Pivotal (cloud platform), as well as his current role at Google Cloud (GCP).",
+                "error": null
+              },
+              {
+                "person_name": "Suraj Guptha",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "His current title is Principal Lead Product Manager (and Principal PM Manager) at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "His location is listed as Greater Seattle Area, and his work at Microsoft is based in Redmond/Seattle.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He leads teams developing CI/CD infrastructure, build/verification services, and code review tools (1ES) used by tens of thousands of developers.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "He manages 'Managed DevOps Pools' for Azure DevOps and internal engineering platforms (PaaS/Infrastructure) at massive scale (30 billion tests/month).",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Suraj Guptha is a highly qualified match for the query. He is a Principal PM Manager at Microsoft in the Seattle area, specifically leading teams focused on developer productivity, CI/CD infrastructure (Managed DevOps Pools), and internal engineering systems (1ES). His work directly involves developer tools and cloud-based developer platforms.",
+                "error": null
+              },
+              {
+                "person_name": "Kartik Kanakasabesan",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Director of Product Management at Tanium; previously Principal PM Manager at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Greater Seattle Area, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Extensive experience managing Power Platform CLI, Visual Studio Code extensions, and GitHub Actions/Azure DevOps tasks for developers.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "Managed developer experiences for the Power Platform (PaaS) and worked on cloud-integrated developer tools at Microsoft.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Kartik Kanakasabesan is a highly qualified match. He currently serves as Director of Product Management at Tanium in the Seattle area. His previous long-term tenure at Microsoft as a Principal PM Manager for Power Platform Developer Tools directly confirms his expertise in CLI tools, VS Code extensions, and developer ecosystems.",
+                "error": null
+              },
+              {
+                "person_name": "Kevin Lillybridge",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Kevin holds the title of Group Product Manager at Auth0 by Okta.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "His location is listed as Seattle, Washington, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He is the Group PM for SDK and developer tooling products at Auth0 and has authored content specifically about the Auth0 CLI.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "He manages products like the Auth0 Terraform Provider (Infrastructure as Code) and works on the Auth0 identity platform, which is a developer-centric PaaS/ecosystem.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Kevin Lillybridge is a highly qualified match. He is currently a Group Product Manager at Auth0 (by Okta) based in Seattle. His professional focus is explicitly on developer experience, including SDKs, CLI tools, and the Auth0 Terraform Provider, which covers both developer tools and platform infrastructure criteria.",
+                "error": null
+              },
+              {
+                "person_name": "Paul Gildea",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is 'Senior Product Manager - Fluent UI React' at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Seattle, Washington, United States; specifically works in Redmond, WA.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Previously served as Program Manager II for Microsoft Edge DevTools (2017-2019), specifically driving vision for DevTools as a Windows Store app and VS Code Extension.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "Previously served as Program Manager II for Windows Developer Platform (2016-2017). His current role with Fluent UI React also involves managing a developer-facing UI library/ecosystem.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.9,
+                "contextual_score": 1.0,
+                "utility_score": 0.95,
+                "verification_summary": "Paul Gildea is a Senior Product Manager at Microsoft based in the Seattle area (Redmond). His professional history strongly aligns with the query, including direct experience managing Microsoft Edge DevTools and the Windows Developer Platform. He currently leads Fluent UI React, which serves as a developer framework/library.",
+                "error": null
+              },
+              {
+                "person_name": "Swati Jain",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "The person's title is 'Principal Product Manager' at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "The location is listed as 'Greater Seattle Area United States'.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "not_met",
+                    "evidence": "The person is currently a PM for Microsoft Loop, which is a productivity/collaboration software. There is no evidence of experience with IDEs, APIs, or SDKs in the provided data.",
+                    "confidence": "medium"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "not_met",
+                    "evidence": "While Microsoft Loop has a platform component, it is an end-user productivity application rather than a developer platform like Azure or a PaaS. No specific developer platform experience is listed.",
+                    "confidence": "medium"
+                  }
+                ],
+                "relevance_grade": 0.5,
+                "structural_score": 0.6,
+                "contextual_score": 0.65,
+                "utility_score": 0.625,
+                "verification_summary": "Swati Jain is a Principal Product Manager at Microsoft based in the Seattle area. While she meets the role and location criteria, her current focus is on Microsoft Loop (a collaboration/productivity app), and there is no explicit evidence in the provided data or public profile that she specializes in developer tools (IDEs, SDKs) or developer platforms (PaaS).",
+                "error": null
+              },
+              {
+                "person_name": "Clint Rutkas",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "His current title is Principal Product Manager Lead at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "He is located in Seattle, Washington, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He has extensive experience with developer tools, specifically leading PowerToys (a suite of developer/power-user utilities) and working on the Windows Terminal and Windows Command Line teams.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "He has managed Windows developer virtual machines, SDKs, and worked on the Windows Developer Blog, which are core components of the Windows developer platform and ecosystem.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Clint Rutkas is a Principal Product Manager at Microsoft based in the Seattle area. His career is heavily focused on developer tools and platforms, including leading the Microsoft PowerToys project, working on the Windows Terminal team, and managing Windows developer virtual machines and SDKs.",
+                "error": null
+              },
+              {
+                "person_name": "Joey Aiello",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Currently holds the title of Principal Product Manager at New Relic; previously Senior PM Manager at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "LinkedIn and professional profiles confirm he is based in Seattle, Washington.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Extensive experience with developer tools, specifically leading the development of open-source PowerShell and the Windows port of OpenSSH at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "Worked as a Staff Product Manager at Netlify (a developer platform) and currently at New Relic (observability platform for developers).",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Joey Aiello is a highly qualified match for the query. He is currently a Principal Product Manager at New Relic in Seattle. His career history includes significant roles at Microsoft (leading PowerShell and OpenSSH) and Netlify, both of which are centered on developer tools and platforms.",
+                "error": null
+              },
+              {
+                "person_name": "Wael Jendli",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Principal Product Manager at CrowdStrike; previously a PM at Qualtrics and Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Greater Seattle Area, United States.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He leads Falcon Foundry, a low-code app development platform, and previously worked on xFlow Workflows at Qualtrics, which involves automation and logic tools for developers/builders.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "His current role involves building a 'cybersecurity low-code app development platform' (Falcon Foundry) and he has experience with 'XM OS' at Qualtrics, both of which are platform-level products.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Wael Jendli is a Principal Product Manager at CrowdStrike based in the Seattle area. Web search confirms he is currently leading 'Falcon Foundry,' which is explicitly described as a low-code application development platform for cybersecurity. His background includes roles at Qualtrics (working on automation workflows) and Microsoft, confirming deep experience in developer-centric platforms and tools.",
+                "error": null
+              },
+              {
+                "person_name": "Karthig Balendran",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Currently a Group Product Manager at Okta (previously Senior PM).",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is confirmed as Greater Seattle Area; external sources mention him riding through hills outside Seattle.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "Led extensibility toolkits at Microsoft and currently manages Okta Verify/FastPass, which involve SDKs and developer-facing security integrations.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "Experience with Microsoft Teams (a developer platform) and Okta's Access Management platform, focusing on cross-platform environments and Zero Trust infrastructure.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.8,
+                "contextual_score": 1.0,
+                "utility_score": 0.9,
+                "verification_summary": "Karthig Balendran is a Group Product Manager at Okta based in the Seattle area. His background includes significant experience at Microsoft (Teams and Intune) and Okta, specifically focusing on developer-centric products such as extensibility toolkits, SDKs (Okta Verify/FastPass), and platform security integrations.",
+                "error": null
+              },
+              {
+                "person_name": "Dian Hartono",
+                "person_index": 0,
+                "criteria_results": [
+                  {
+                    "criterion_id": "c1",
+                    "description": "Person holds a Product Management role (Product Manager, Senior PM, Group PM, or equivalent)",
+                    "match": "met",
+                    "evidence": "Current title is Senior Product Manager Lead at Microsoft.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c2",
+                    "description": "Person is based in Seattle, Washington or the surrounding metropolitan area",
+                    "match": "met",
+                    "evidence": "Location is listed as Seattle, Washington.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c3",
+                    "description": "Person has professional experience working on developer tools (e.g., IDEs, APIs, SDKs, CLI tools)",
+                    "match": "met",
+                    "evidence": "He works on the Windows Copilot Runtime and WinAppSDK, specifically promoting AI APIs and SDKs for developers at events like Microsoft Build.",
+                    "confidence": "high"
+                  },
+                  {
+                    "criterion_id": "c4",
+                    "description": "Person has professional experience working on developer platforms (e.g., PaaS, cloud infrastructure, developer ecosystems)",
+                    "match": "met",
+                    "evidence": "His work involves the Windows AI Foundry and developer ecosystems for Copilot+ PCs, which constitutes platform-level developer experience.",
+                    "confidence": "high"
+                  }
+                ],
+                "relevance_grade": 1.0,
+                "structural_score": 0.7,
+                "contextual_score": 0.65,
+                "utility_score": 0.675,
+                "verification_summary": "Dian Hartono is a Senior Product Manager Lead at Microsoft based in the Seattle area. Web search confirms he works on the Windows Copilot Runtime and WinAppSDK, specifically focusing on AI APIs, SDKs, and developer tools (like LoRA fine-tuning and NPU leverage) for the Windows platform.",
+                "error": null
+              }
+            ]
+          }
+        }
+      ],
+      "weighted_score": 0.9667
+    }
+  ],
+  "summary": {
+    "prism": {
+      "criteria": 0.9833,
+      "weighted_avg": 0.9833
+    }
+  }
+}
