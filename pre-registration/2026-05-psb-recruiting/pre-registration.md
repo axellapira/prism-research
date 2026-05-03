@@ -27,23 +27,29 @@ section 8 of this document.
 
 **H1 (primary):** Prism, evaluated on the 30 PeopleSearchBench recruiting
 queries using PSB's official Criteria-Grounded Verification harness, achieves a
-higher PSB Overall score than Juicebox (PeopleGPT), the most directly
-comparable AI recruiting platform in PSB's published baselines.
+higher PSB Overall score than **Lessie**, the highest-scoring published
+baseline on the recruiting subset and the platform whose authors built the
+benchmark.
 
-Juicebox's published Overall on the recruiting subset is **65.7 ± 2.9**
-(95% CI ≈ [62.8, 68.6]).
+Lessie's published Overall on the recruiting subset is **68.2 ± 2.8**
+(95% CI ≈ [65.4, 71.0]).
 
 **H1 holds if:**
-- Prism's Overall score on the recruiting subset exceeds 65.7, AND
-- The 95% confidence interval lower bound on Prism's score exceeds 62.8 (the
-  lower bound of Juicebox's reported CI), AND
+- Prism's Overall score on the recruiting subset exceeds 68.2, AND
+- The 95% confidence interval lower bound on Prism's score exceeds 65.4 (the
+  lower bound of Lessie's reported CI), AND
 - A paired bootstrap test on per-query scores yields p < 0.05 against
-  Juicebox's per-query scores (per PSB's released results data).
+  Lessie's per-query scores (per PSB's released results data).
 
-**H2 (secondary, exploratory):** Prism's Overall score also exceeds Lessie
-(68.2 ± 2.8) on the recruiting subset. We will report this comparison
-regardless of outcome but do not pre-commit to it as a publication-gating
-claim.
+**H2 (secondary, reported regardless):** Prism's Overall score on the
+recruiting subset compared to Juicebox (65.7 ± 2.9) and Exa (64.7 ± 3.1).
+These comparisons are reported in the paper but are not publication-gating.
+
+Choosing Lessie rather than Juicebox as the primary target is deliberate:
+the strongest possible framing of the result is "Prism beats the platform
+whose authors built the benchmark." If we anchored on Juicebox, a marginal
+result would still leave Lessie at the top of the leaderboard, weakening the
+paper's headline. Anchoring on the leader forces a real result.
 
 ## 3. Scope
 
@@ -213,18 +219,26 @@ scoring begins, the CSV is frozen.
 
 **G3 — post-scoring (the publication gate):**
 
-- **Publish as "leads recruiting"** if and only if Prism's mean Overall on the
-  recruiting subset exceeds Juicebox's reported 65.7 AND the paired bootstrap
-  test gives p < 0.05.
-- **Publish as "comparable to"** if Prism's mean Overall is within ±2 points
-  of Juicebox's reported 65.7 AND the bootstrap test gives p ≥ 0.05.
-- **Do not publish** if Prism's mean Overall is more than 2 points below
-  Juicebox.
+The threshold is **Lessie's published Overall of 68.2** on the recruiting
+subset. Three pre-committed outcomes:
 
-If H2 is also met (Prism beats Lessie's 68.2), the headline framing escalates
-to "leads on PSB recruiting." If H2 fails but H1 passes, the headline is
-"surpasses Juicebox on PSB recruiting." Pre-committing to language now removes
-the temptation to overclaim post-hoc.
+- **Publish as "leads PSB recruiting"** if and only if Prism's mean Overall
+  exceeds 68.2 AND the paired bootstrap test against Lessie's per-query
+  scores gives p < 0.05.
+- **Publish as "comparable to top of PSB recruiting leaderboard"** if Prism's
+  mean Overall is within ±2 points of 68.2 (i.e. between 66.2 and 70.2) AND
+  the bootstrap test against Lessie gives p ≥ 0.05. The paper will report
+  the result honestly — Prism is statistically tied with Lessie — and frame
+  Prism's standing relative to all four baselines.
+- **Do not publish** if Prism's mean Overall is more than 2 points below
+  Lessie's 68.2 (i.e. < 66.2).
+
+The choice of Lessie as the threshold is locked here regardless of the H2
+results — even if Prism beats Juicebox by a wide margin, that alone is not
+sufficient to publish under this pre-registration. The paper either claims a
+top-leaderboard result (H1 met) or makes no comparable-to-leader claim at
+all. Anchoring high removes the temptation to retreat to a weaker target if
+the data is borderline.
 
 ## 10. Reporting
 
