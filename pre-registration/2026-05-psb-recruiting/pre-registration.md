@@ -99,9 +99,13 @@ shaped for a different system:
 - For each PSB recruiting query we generate a synthetic 1-paragraph job
   description by passing the query through a single deterministic prompt
   (frozen as `prompts/jd-expansion-v1.md` in this repository).
-- Generation parameters: model = `claude-opus-4-7`, temperature = 0,
-  no system prompt overrides, no agentic tools.
-- The expansion is performed exactly once per query. The 30 expanded JDs are
+- Generation parameters: model = `claude-opus-4-7`, default sampling
+  parameters (the Anthropic API for Opus 4.7 deprecates explicit
+  `temperature` overrides, so we use the model's default deterministic
+  settings), no system prompt overrides, no agentic tools, max_tokens = 600.
+- The expansion is performed exactly once per query. Each generation's full
+  Anthropic API response (including `usage` token counts and `request_id`)
+  is saved alongside the expanded JD for audit. The 30 expanded JDs are
   saved to `runs/2026-05-XX/expanded_jds.jsonl` and committed to this
   repository before the sourcing run.
 - An ablation will be run on a held-out subset of 10 queries (with vs. without

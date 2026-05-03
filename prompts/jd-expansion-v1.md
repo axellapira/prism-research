@@ -4,7 +4,8 @@
 `jd-expansion-v2.md`, etc.
 
 **Model:** `claude-opus-4-7`
-**Temperature:** 0
+**Sampling:** API defaults. The Opus 4.7 API rejects explicit `temperature`
+overrides; we accept the model's default deterministic settings.
 **System prompt:** none
 **Tools:** none
 **Max output tokens:** 600
